@@ -1,0 +1,293 @@
+/*Import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@300;400;500&family=Irish+Grover&family=Lora:ital,wght@0,600;0,700;1,600;1,700&family=PT+Sans:ital@0;1&family=Raleway:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+/*font-family: 'Bebas Neue', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Lora', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Irish Grover', cursive;*/
+
+/* medias breakpoint
+
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+body{
+  background-color: #E8E2BA;
+  margin: 0;
+}
+
+/*colors*/
+
+.text-white{
+  color: #fafafa
+}
+
+.text-active {
+  color: #FFD700;
+}
+
+/*spacing*/
+
+.text-center{
+  text-align: center;
+}
+
+.mt-50{
+  /* margin-top: 60px; */
+  align-self: center;
+}
+
+
+/* fonts  */
+
+h1, h2 {
+  font-family: 'Lora', serif;
+}
+
+h3, h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+a{
+  font-family: 'Inconsolata', monospace;
+}
+
+p{
+  font-family: 'PT Sans', sans-serif;
+}
+
+button{
+  font-family: 'Bebas Neue', sans-serif;
+}
+/* header */
+
+
+/*index*/
+
+
+
+
+
+
+
+/*index grid*/
+#container-header{
+  display:grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 20vh;
+  background-color: #354F52;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#logo{
+  background-image: url('../images/asturiaslogo.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#navigation{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  width: 100%;
+  align-self: center;
+  text-align: right;
+}
+#navigation a{
+  margin-right: 6%;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+#navigation a:hover{
+  color: #FFD700;
+}
+
+#contenedor-padre{
+  /* margin-top: 20vh; */
+  display: grid;
+  grid-template-rows: 30vh 30vh 20vh;
+  grid-template-columns: 40vw 60vw;
+  grid-template-areas:  "picture heading"
+                        "picture text"
+                        "button button";
+}
+
+#item1{
+  grid-area: picture;
+  background-image: url('../images/cudillero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#item2{
+  grid-area: heading;
+  /* background-color: rgb(214, 214, 79); */
+  align-self: center;
+  text-align: center;
+  
+}
+#item3{
+  grid-area: text;
+  align-self: center;
+}
+#item3 p{
+  padding-left: 2%;
+  padding-right: 4%;
+}
+#item4{
+  grid-area: button;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button{
+  text-decoration: none;
+  background-color: #354F52;
+  color: #fafafa;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-family: 'Bebas Neue', sans-serif;
+  padding: 5px 10px;
+}
+
+.button:hover{
+  background-color: #fafafa;
+  color: #354F52;
+}
+
+
+/* weather.html */
+
+
+.container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100vh;
+}
+
+#container1{
+  background-color: #354F52;
+  height: 100vh;
+}
+#container2{
+  
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: repeat(2, 10% 40%);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#date-container{
+  position: relative;
+  top: 15vh;
+  font-size: 1.5rem;
+}
+
+#image{
+  position: relative;
+  width: 12vw;
+  height: 27vh;
+  top: 20vh;
+  left: 25%;
+  background-image: url('');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 3;
+}
+
+#temp-box{
+  color: #fafafa;
+  font-size: 1.2rem;
+  position: relative;
+  top: 27vh;
+  display: inline;
+}
+.material-symbols-outlined{
+  color: #fafafa;
+}
+.box-weather{
+  background-color:#1f2f31;
+  border: 1px solid #000000;
+  /* width: 98%; */
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.city-heading{
+align-self: center;
+grid-column-start: 1;
+grid-column-end: 5;
+font-size: 120%;
+}
+
+.day-image{
+  height:50%;
+  background-image: url('');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+#map{
+  width:75vw;
+  height:60vh;
+  margin:2% auto;
+  border: 1px solid black;
+}
+.asturias-center{
+  text-align: center;
+}
+
+.asturias-center button{
+  background-color: #354F52;
+  color: #fafafa;
+  border-radius: 25px;
+  width: 100px;
+  font-size: 16pt;
+  cursor: pointer;
+}
+.asturias-center button:hover{
+  background-color: #fafafa;
+  color: #354F52;
+  border-color: #354F52;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+  #contenedor-padre{
+    display: block;
+  }
+  #item1{
+    width: 100%;
+    height:300px;
+  }
+  #item3{
+    text-align: center;
+  }
+  #item4{
+    display: block;
+    text-align: center;
+  }
+  #item4 div{
+    margin-top: 25px;
+  }
+}

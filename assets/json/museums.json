@@ -1,0 +1,1073 @@
+{
+  "0": {
+    "name": "Centro de Recepción de Visitantes 'Casa Dago'",
+    "location": "Cangas de Onís",
+    "lat": 43.351037,
+    "lon": -5.125558,
+    "web": ""
+  },
+  "1": {
+    "name": "Juan Pérez Villamil Ethnographic Museum",
+    "location": "Navia",
+    "lat": 43.563251,
+    "lon": -6.64687,
+    "web": ""
+  },
+  "2": {
+    "name": "Mazonovo Mills Museum",
+    "location": "Taramundi",
+    "lat": 43.356869,
+    "lon": -7.106511,
+    "web": ""
+  },
+  "3": {
+    "name": "Chao Samartín",
+    "location": "Grandas de Salime",
+    "lat": 43.1985,
+    "lon": -6.925786,
+    "web": ""
+  },
+  "4": {
+    "name": "Fuentes del Narcea, Degaña e Ibias Nature Park Educational Exhibition on Nature",
+    "location": "Ibias",
+    "lat": 43.039436,
+    "lon": -6.86924,
+    "web": ""
+  },
+  "5": {
+    "name": "Centro de Interpretación e Información del Parque Natural de las Fuentes del Narcea, Degaña e Ibias 'Casa Florencio'",
+    "location": "Degaña",
+    "lat": 43.19589612764483,
+    "lon": -6.54275551537512,
+    "web": ""
+  },
+  "6": {
+    "name": "Fuentes del Narcea, Degaña e Ibias Nature Park House",
+    "location": "Cangas del Narcea",
+    "lat": 43.194993,
+    "lon": -6.544035,
+    "web": ""
+  },
+  "7": {
+    "name": "Cangas del Narcea Wine Museum",
+    "location": "Cangas del Narcea",
+    "lat": 43.168832,
+    "lon": -6.54353,
+    "web": ""
+  },
+  "8": {
+    "name": "Omaña Mansion",
+    "location": "Cangas del Narcea",
+    "lat": 43.176922,
+    "lon": -6.551688,
+    "web": ""
+  },
+  "9": {
+    "name": "Gijón Aquarium",
+    "location": "Gijón",
+    "lat": 43.542198,
+    "lon": -5.676489,
+    "web": ""
+  },
+  "10": {
+    "name": "Gold Educational Exhibition",
+    "location": "Belmonte de Miranda",
+    "lat": 43.282892,
+    "lon": -6.218049,
+    "web": ""
+  },
+  "11": {
+    "name": "The Wood Museum",
+    "location": "Caso",
+    "lat": 43.178579,
+    "lon": -5.333501,
+    "web": ""
+  },
+  "12": {
+    "name": "Museo de la Apicultura",
+    "location": "Caso",
+    "lat": 43.203777,
+    "lon": -5.395626,
+    "web": ""
+  },
+  "13": {
+    "name": "Grandas de Salime Ethnographic Museum",
+    "location": "Grandas de Salime",
+    "lat": 43.217552,
+    "lon": -6.874403,
+    "web": ""
+  },
+  "14": {
+    "name": "The Steelworks Museum of Asturias (MUSI)",
+    "location": "Langreo",
+    "lat": 43.308876,
+    "lon": -5.687857,
+    "web": ""
+  },
+  "15": {
+    "name": "Las Ayalgas de Silviella",
+    "location": "Belmonte de Miranda",
+    "lat": 43.328954,
+    "lon": -6.211624,
+    "web": ""
+  },
+  "16": {
+    "name": "The Maritime Museum of Asturias",
+    "location": "Gozón",
+    "lat": 43.613624,
+    "lon": -5.793002,
+    "web": ""
+  },
+  "17": {
+    "name": "Glacial Wildlife Interpretation Centre",
+    "location": "Onís",
+    "lat": 43.335136,
+    "lon": -4.967544,
+    "web": ""
+  },
+  "18": {
+    "name": "Pozu Santa Bárbara",
+    "location": "Mieres",
+    "lat": 43.21389712263115,
+    "lon": -5.717301175222333,
+    "web": ""
+  },
+  "19": {
+    "name": "Espacio Portus y CI Cañones Submarinos de Avilés",
+    "location": "Avilés",
+    "lat": 43.592704,
+    "lon": -5.924995,
+    "web": ""
+  },
+  "20": {
+    "name": "Pre-Romanesque Museum of Santianes",
+    "location": "Pravia",
+    "lat": 43.502017,
+    "lon": -6.100462,
+    "web": ""
+  },
+  "21": {
+    "name": "Permanent Exhibition on the Canning Industry in Candás",
+    "location": "Carreño",
+    "lat": 43.588313,
+    "lon": -5.767383,
+    "web": ""
+  },
+  "22": {
+    "name": "Coaña Hill Fort Educational Exhibition",
+    "location": "Coaña",
+    "lat": 43.510837,
+    "lon": -6.749303,
+    "web": ""
+  },
+  "23": {
+    "name": "The Mining and Industry Museum",
+    "location": "El Entrego, San Martín del Rey Aurelio",
+    "lat": 43.288228,
+    "lon": -5.653128,
+    "web": ""
+  },
+  "24": {
+    "name": "Reception and Interpretation Centre of Asturian Pre-Romanesque Art",
+    "location": "Oviedo",
+    "lat": 43.378641,
+    "lon": -5.867362,
+    "web": ""
+  },
+  "25": {
+    "name": "Tito Bustillo Cave Art Centre",
+    "location": "Ribadesella",
+    "lat": 43.458082,
+    "lon": -5.067242,
+    "web": ""
+  },
+  "26": {
+    "name": "Teverga Prehistory Park",
+    "location": "Teverga",
+    "lat": 43.137829,
+    "lon": -6.07588,
+    "web": ""
+  },
+  "27": {
+    "name": "Atlantic Botanic Gardens",
+    "location": "Gijón",
+    "lat": 43.521502,
+    "lon": -5.615784,
+    "web": ""
+  },
+  "28": {
+    "name": "Centro del Calamar Gigante",
+    "location": "Valdés",
+    "lat": 43.541299,
+    "lon": -6.537667,
+    "web": ""
+  },
+  "29": {
+    "name": "Parque de la Vida",
+    "location": "Valdés",
+    "lat": 43.540352,
+    "lon": -6.567476,
+    "web": ""
+  },
+  "30": {
+    "name": "Jurassic Museum of Asturias (MUJA)",
+    "location": "Colunga",
+    "lat": 43.500548,
+    "lon": -5.274463,
+    "web": ""
+  },
+  "31": {
+    "name": "Evaristo Valle Museum",
+    "location": "Gijón",
+    "lat": 43.533949,
+    "lon": -5.619832,
+    "web": ""
+  },
+  "32": {
+    "name": "The Gold Museum of Asturias (MOA)",
+    "location": "Tineo",
+    "lat": 43.403299,
+    "lon": -6.543859,
+    "web": ""
+  },
+  "33": {
+    "name": "Laboral City of Culture",
+    "location": "Gijón",
+    "lat": 43.524095,
+    "lon": -5.613511,
+    "web": ""
+  },
+  "34": {
+    "name": "Grandas de Salime Dam and Hydroelectric Plant",
+    "location": "Grandas de Salime",
+    "lat": 43.237458,
+    "lon": -6.846008,
+    "web": ""
+  },
+  "35": {
+    "name": "El Gaitero Cider Factory",
+    "location": "Villaviciosa",
+    "lat": 43.493781,
+    "lon": -5.423937,
+    "web": ""
+  },
+  "36": {
+    "name": "Samuño Valley Ecomuseum and San Luis Pit",
+    "location": "Langreo",
+    "lat": 43.276161,
+    "lon": -5.677206,
+    "web": ""
+  },
+  "37": {
+    "name": "Marine Environment of Cape Peñas Visitor Reception and Interpretation Centre",
+    "location": "Gozón",
+    "lat": 43.655536,
+    "lon": -5.848463,
+    "web": ""
+  },
+  "38": {
+    "name": "Alejandro Casona Visitor Reception Centre.",
+    "location": "Cangas del Narcea",
+    "lat": 43.187153,
+    "lon": -6.631307,
+    "web": ""
+  },
+  "39": {
+    "name": "Centro de Recepción de Visitantes de Muniellos",
+    "location": "Cangas del Narcea",
+    "lat": 43.035449,
+    "lon": -6.681805,
+    "web": ""
+  },
+  "40": {
+    "name": "Muniellos Bioreserve Interpretation Centre",
+    "location": "Cangas del Narcea",
+    "lat": 43.048549,
+    "lon": -6.656486,
+    "web": ""
+  },
+  "41": {
+    "name": "Grado Ethnological Museum",
+    "location": "Grado",
+    "lat": 43.395311,
+    "lon": -6.061569,
+    "web": ""
+  },
+  "42": {
+    "name": "Coaña Hill Fort",
+    "location": "Coaña",
+    "lat": 43.511033,
+    "lon": -6.749499,
+    "web": ""
+  },
+  "43": {
+    "name": "Casa del Agua de Sobrescobio",
+    "location": "Sobrescobio",
+    "lat": 43.219239,
+    "lon": -5.45258,
+    "web": ""
+  },
+  "44": {
+    "name": "The Bread Ecomuseum",
+    "location": "Villanueva de Oscos",
+    "lat": 43.303835,
+    "lon": -6.992066,
+    "web": ""
+  },
+  "45": {
+    "name": "Historical Archives of Asturias",
+    "location": "Oviedo",
+    "lat": 43.37055,
+    "lon": -5.851186,
+    "web": ""
+  },
+  "46": {
+    "name": "The Archaeological Museum of Asturias",
+    "location": "Oviedo",
+    "lat": 43.363115,
+    "lon": -5.842337,
+    "web": ""
+  },
+  "47": {
+    "name": "Ciudadela de Celestino Solar",
+    "location": "Gijón",
+    "lat": 43.541035,
+    "lon": -5.658411,
+    "web": ""
+  },
+  "48": {
+    "name": "Dairy Ethnological Museum",
+    "location": "Morcín",
+    "lat": 43.251737,
+    "lon": -5.872311,
+    "web": ""
+  },
+  "49": {
+    "name": "The Cider Museum",
+    "location": "Nava",
+    "lat": 43.357231,
+    "lon": -5.504894,
+    "web": ""
+  },
+  "50": {
+    "name": "Indiano Archives-Emigration Museum Foundation",
+    "location": "Ribadedeva",
+    "lat": 43.373742,
+    "lon": -4.538933,
+    "web": ""
+  },
+  "51": {
+    "name": "Os Teixois Ethnographic Site",
+    "location": "Taramundi",
+    "lat": 43.341276,
+    "lon": -7.079722,
+    "web": ""
+  },
+  "52": {
+    "name": "Centro de Experiencias y Memoria de la Minería",
+    "location": "El Entrego, San Martín del Rey Aurelio",
+    "lat": 43.282019,
+    "lon": -5.623307,
+    "web": ""
+  },
+  "53": {
+    "name": "Bres Water House",
+    "location": "Taramundi",
+    "lat": 43.369375,
+    "lon": -7.06495,
+    "web": ""
+  },
+  "54": {
+    "name": "Mon Mansion",
+    "location": "San Martín de Oscos",
+    "lat": 43.269675,
+    "lon": -6.915208,
+    "web": ""
+  },
+  "55": {
+    "name": "Valle de Turón (Socavón La Rebaldana, Pozu Espinos y Pozu Fortuna)",
+    "location": "Mieres",
+    "lat": 43.213858,
+    "lon": -5.718616,
+    "web": ""
+  },
+  "56": {
+    "name": "Marquis of Sargadelos Birthplace",
+    "location": "Santa Eulalia de Oscos",
+    "lat": 43.259159,
+    "lon": -7.020318,
+    "web": ""
+  },
+  "57": {
+    "name": "La Xorenga Petroglyphs",
+    "location": "Grandas de Salime",
+    "lat": 43.185113,
+    "lon": -6.911057,
+    "web": ""
+  },
+  "58": {
+    "name": "The Idol of Peña Tú",
+    "location": "Llanes",
+    "lat": 43.393268,
+    "lon": -4.689375,
+    "web": ""
+  },
+  "59": {
+    "name": "Laboral Centre for Art and Industrial Creation",
+    "location": "Gijón",
+    "lat": 43.524517,
+    "lon": -5.611869,
+    "web": ""
+  },
+  "60": {
+    "name": "La Piedra de Filadoira Dolmen",
+    "location": "Illano",
+    "lat": 43.269351,
+    "lon": -6.348085,
+    "web": ""
+  },
+  "61": {
+    "name": "Somiedo Nature Park Reception and Interpretation Centre",
+    "location": "Somiedo",
+    "lat": 43.092379,
+    "lon": -6.256199,
+    "web": ""
+  },
+  "62": {
+    "name": "Territory of Ribadesella Museum",
+    "location": "Ribadesella",
+    "lat": 43.454421,
+    "lon": -5.105448,
+    "web": ""
+  },
+  "63": {
+    "name": "San Isidro Hill Fort",
+    "location": "San Martín de Oscos",
+    "lat": 43.303125,
+    "lon": -6.895425,
+    "web": ""
+  },
+  "64": {
+    "name": "Roman Villa of Veranes",
+    "location": "Gijón",
+    "lat": 43.484135,
+    "lon": -5.753705,
+    "web": ""
+  },
+  "65": {
+    "name": "Campo Valdés Roman Baths",
+    "location": "Gijón",
+    "lat": 43.545563,
+    "lon": -5.661243,
+    "web": ""
+  },
+  "66": {
+    "name": "Campa Torres Archaeological-Nature Park",
+    "location": "Gijón",
+    "lat": 43.56912,
+    "lon": -5.70399,
+    "web": ""
+  },
+  "67": {
+    "name": "Mount Areo Megalithic Necropolis-Burial Mounds",
+    "location": "Carreño",
+    "lat": 43.525114,
+    "lon": -5.7891,
+    "web": ""
+  },
+  "68": {
+    "name": "El Padrún Megaliths",
+    "location": "Aller",
+    "lat": 43.144948,
+    "lon": -5.779487,
+    "web": ""
+  },
+  "69": {
+    "name": "Santa Cruz Dolmen",
+    "location": "Cangas de Onis",
+    "lat": 43.352811,
+    "lon": -5.130378,
+    "web": ""
+  },
+  "70": {
+    "name": "Pradías Dolmen",
+    "location": "Ibias",
+    "lat": 43.037822,
+    "lon": -6.812172,
+    "web": ""
+  },
+  "71": {
+    "name": "Merillés Dolmen",
+    "location": "Tineo",
+    "lat": 43.27394,
+    "lon": -6.345917,
+    "web": ""
+  },
+  "72": {
+    "name": "San Chuis Hill Fort",
+    "location": "Allande",
+    "lat": 43.232154,
+    "lon": -6.596105,
+    "web": ""
+  },
+  "73": {
+    "name": "Pendía Hill Fort",
+    "location": "Boal",
+    "lat": 43.432055,
+    "lon": -6.772397,
+    "web": ""
+  },
+  "74": {
+    "name": "Castro de Os Castros",
+    "location": "Taramundi",
+    "lat": 43.358885,
+    "lon": -7.107012,
+    "web": ""
+  },
+  "75": {
+    "name": "Mohías Hill Fort",
+    "location": "Coaña",
+    "lat": 43.549508,
+    "lon": -6.747044,
+    "web": ""
+  },
+  "76": {
+    "name": "Castelón Hill Fort",
+    "location": "Illano",
+    "lat": 43.32709,
+    "lon": -6.868918,
+    "web": ""
+  },
+  "77": {
+    "name": "Castro de Cabo Blanco",
+    "location": "El Franco",
+    "lat": 43.56724,
+    "lon": -6.855908,
+    "web": ""
+  },
+  "78": {
+    "name": "Centro de Visitantes Las Montañas del Quebrantahuesos",
+    "location": "Onís",
+    "lat": 43.337098,
+    "lon": -4.975627,
+    "web": ""
+  },
+  "79": {
+    "name": "Villaviciosa Estuary Interpretation Centre",
+    "location": "Villaviciosa",
+    "lat": 43.509801,
+    "lon": -5.417068,
+    "web": ""
+  },
+  "80": {
+    "name": "Lords of the Manors Reception Center",
+    "location": "Tapia de Casariego",
+    "lat": 43.570228,
+    "lon": -6.944344,
+    "web": ""
+  },
+  "81": {
+    "name": "'Gateway to the Sea' Nalón Estuary Interpretation Centre",
+    "location": "Soto del Barco",
+    "lat": 43.556963,
+    "lon": -6.076272,
+    "web": ""
+  },
+  "82": {
+    "name": "Fishing on the River Eo Interpretation Centre",
+    "location": "San Tirso de Abres",
+    "lat": 43.41055,
+    "lon": -7.142986,
+    "web": ""
+  },
+  "83": {
+    "name": "Hórreo Interpretation Centre",
+    "location": "Ribera de Arriba",
+    "lat": 43.317469,
+    "lon": -5.887102,
+    "web": ""
+  },
+  "84": {
+    "name": "San Emeterio and Pindal Cave Interpretation Centre",
+    "location": "Ribadedeva",
+    "lat": 43.396995,
+    "lon": -4.533579,
+    "web": ""
+  },
+  "85": {
+    "name": "Centro de Interpretación del Parque Natural de Ponga",
+    "location": "Ponga",
+    "lat": 43.187897,
+    "lon": -5.164205,
+    "web": ""
+  },
+  "86": {
+    "name": "Sea Stories Reception Centre",
+    "location": "Navia",
+    "lat": 43.563325,
+    "lon": -6.647072,
+    "web": ""
+  },
+  "87": {
+    "name": "Bustiello Mining Village Interpretation Centre",
+    "location": "Mieres",
+    "lat": 43.188344,
+    "lon": -5.768397,
+    "web": ""
+  },
+  "88": {
+    "name": "Loredo Railway Educational Exhibition",
+    "location": "Mieres",
+    "lat": 43.269191,
+    "lon": -5.833237,
+    "web": ""
+  },
+  "89": {
+    "name": "La Cobertoria Pre-Romanesque Educational Exhibition",
+    "location": "Lena",
+    "lat": 43.130186,
+    "lon": -5.816022,
+    "web": ""
+  },
+  "90": {
+    "name": "La Chalana Mill Educational Exhibition",
+    "location": "Laviana",
+    "lat": 43.237043,
+    "lon": -5.555502,
+    "web": ""
+  },
+  "91": {
+    "name": "Centro de Interpretación del Cine en Asturias (CICA)",
+    "location": "Gijón",
+    "lat": 43.53967,
+    "lon": -5.662386,
+    "web": ""
+  },
+  "92": {
+    "name": "La Carriona Cemetery Interpretation Centre",
+    "location": "Avilés",
+    "lat": 43.541635,
+    "lon": -5.937529,
+    "web": ""
+  },
+  "93": {
+    "name": "Centro Interpretación Gaitero Libardón",
+    "location": "Colunga",
+    "lat": 43.430549,
+    "lon": -5.310958,
+    "web": ""
+  },
+  "94": {
+    "name": "Sueve Range Interpretation Centre",
+    "location": "Colunga",
+    "lat": 43.468818,
+    "lon": -5.234156,
+    "web": ""
+  },
+  "95": {
+    "name": "Redes Nature Park Interpretation Centre",
+    "location": "Caso",
+    "lat": 43.181786,
+    "lon": -5.342396,
+    "web": ""
+  },
+  "96": {
+    "name": "Pedro Pidal Visitor Centre",
+    "location": "Cangas de Onís",
+    "lat": 43.276944,
+    "lon": -4.983298,
+    "web": ""
+  },
+  "97": {
+    "name": "La Peña Cave Interpretation Centre",
+    "location": "Candamo",
+    "lat": 43.450294,
+    "lon": -6.073628,
+    "web": ""
+  },
+  "98": {
+    "name": "Centro de Interpretación La Casa del Lobo",
+    "location": "Belmonte de Miranda",
+    "lat": 43.2828447,
+    "lon": -6.218705600000021,
+    "web": ""
+  },
+  "99": {
+    "name": "Vía Carisa Interpretation Centre",
+    "location": "Aller",
+    "lat": 43.1431034,
+    "lon": -5.696316,
+    "web": ""
+  },
+  "100": {
+    "name": "Bosque - Jardín de la Fonte Baxa",
+    "location": "Valdés",
+    "lat": 43.547231,
+    "lon": -6.541097,
+    "web": ""
+  },
+  "101": {
+    "name": "Quirós Ethnological Museum",
+    "location": "Quirós",
+    "lat": 43.158578,
+    "lon": -5.973007,
+    "web": ""
+  },
+  "102": {
+    "name": "Railway Museum (Former Gijón Railway Station)",
+    "location": "Gijón",
+    "lat": 43.540913,
+    "lon": -5.672857,
+    "web": ""
+  },
+  "103": {
+    "name": "Sotón Pit",
+    "location": "El Entrego, San Martín del Rey Aurelio",
+    "lat": 43.280556,
+    "lon": -5.620856,
+    "web": ""
+  },
+  "104": {
+    "name": "Arnao Mine and its Zinc Factory",
+    "location": "Castrillón",
+    "lat": 43.577096,
+    "lon": -5.983522,
+    "web": ""
+  },
+  "105": {
+    "name": "La Guarida del Cunqueiru",
+    "location": "Degaña",
+    "lat": 42.95927,
+    "lon": -6.644606,
+    "web": ""
+  },
+  "106": {
+    "name": "Museo y Circuito Fernando Alonso",
+    "location": "Llanera",
+    "lat": 43.428374,
+    "lon": -5.831606,
+    "web": ""
+  },
+  "107": {
+    "name": "Eduardo Úrculo Municipal Art Gallery of Langreo",
+    "location": "Langreo",
+    "lat": 43.300743,
+    "lon": -5.686654,
+    "web": ""
+  },
+  "108": {
+    "name": "Fine Arts Museum of Asturias",
+    "location": "Oviedo",
+    "lat": 43.361928,
+    "lon": -5.844485,
+    "web": ""
+  },
+  "109": {
+    "name": "Avilés Urban History Museum",
+    "location": "Avilés",
+    "lat": 43.557253,
+    "lon": -5.921444,
+    "web": ""
+  },
+  "110": {
+    "name": "Niemeyer Centre",
+    "location": "Avilés",
+    "lat": 43.557443,
+    "lon": -5.91771,
+    "web": ""
+  },
+  "111": {
+    "name": "The Church Museum",
+    "location": "Oviedo",
+    "lat": 43.362734,
+    "lon": -5.84367,
+    "web": ""
+  },
+  "112": {
+    "name": "Chao Samartín Museum",
+    "location": "Grandas de Salime",
+    "lat": 43.198465,
+    "lon": -6.925957,
+    "web": ""
+  },
+  "113": {
+    "name": "El Marco House. Peasant House Museum",
+    "location": "San Martín de Oscos",
+    "lat": 43.226319,
+    "lon": -6.955032,
+    "web": ""
+  },
+  "114": {
+    "name": "Armando Palacio Valdés Interpretation Centre",
+    "location": "Laviana",
+    "lat": 43.235699,
+    "lon": -5.552755,
+    "web": ""
+  },
+  "115": {
+    "name": "Puppet Workshop Museum",
+    "location": "Siero",
+    "lat": 43.405932,
+    "lon": -5.646759,
+    "web": ""
+  },
+  "116": {
+    "name": "Juan Barjola Museum",
+    "location": "Gijón",
+    "lat": 43.544236,
+    "lon": -5.663748,
+    "web": ""
+  },
+  "117": {
+    "name": "Nicanor Piñole Museum",
+    "location": "Gijón",
+    "lat": 43.538115,
+    "lon": -5.664027,
+    "web": ""
+  },
+  "118": {
+    "name": "Skittles Museum of Asturias",
+    "location": "Peñamellera Baja",
+    "lat": 43.321792,
+    "lon": -4.583721,
+    "web": ""
+  },
+  "119": {
+    "name": "Candas Sculpture Centre. Antón Museum",
+    "location": "Carreño",
+    "lat": 43.590571,
+    "lon": -5.763856,
+    "web": ""
+  },
+  "120": {
+    "name": "Esquíos Ethnological Museum",
+    "location": "Taramundi",
+    "lat": 43.345409,
+    "lon": -7.091249,
+    "web": ""
+  },
+  "121": {
+    "name": "Somiedo Ecomuseum",
+    "location": "Somiedo",
+    "lat": 43.093573,
+    "lon": -6.253835,
+    "web": ""
+  },
+  "122": {
+    "name": "Tineo Museum of Sacred Art",
+    "location": "Tineo",
+    "lat": 43.335012,
+    "lon": -6.415056,
+    "web": ""
+  },
+  "123": {
+    "name": "Rural School Museum of Asturias",
+    "location": "Cabranes",
+    "lat": 43.427449,
+    "lon": -5.42417,
+    "web": ""
+  },
+  "124": {
+    "name": "Eastern Asturias Ethnological Museum",
+    "location": "Llanes",
+    "lat": 43.413054,
+    "lon": -4.799338,
+    "web": ""
+  },
+  "125": {
+    "name": "Mazonovo Ethnographic Site",
+    "location": "Santa Eulalia de Oscos",
+    "lat": 43.23512,
+    "lon": -7.013689,
+    "web": ""
+  },
+  "126": {
+    "name": "Miranda-Valdecarzana Mansion - Los Dolores Chapel",
+    "location": "Grado",
+    "lat": 43.389292,
+    "lon": -6.069025,
+    "web": ""
+  },
+  "127": {
+    "name": "Ecomuseo la Ponte",
+    "location": "Santo Adriano",
+    "lat": 43.272327,
+    "lon": -6.003038,
+    "web": ""
+  },
+  "128": {
+    "name": "Selgas Fagalde Foundation",
+    "location": "Cudillero",
+    "lat": 43.552152,
+    "lon": -6.139143,
+    "web": ""
+  },
+  "129": {
+    "name": "The Anchor Museum",
+    "location": "Castrillón",
+    "lat": 43.57893,
+    "lon": -5.968305,
+    "web": ""
+  },
+  "130": {
+    "name": "Revillagigedo Palace and Collegiate Church",
+    "location": "Gijón",
+    "lat": 43.545375,
+    "lon": -5.663497,
+    "web": ""
+  },
+  "131": {
+    "name": "The Vaquiero Museum of Asturias",
+    "location": "Tineo",
+    "lat": 43.425356,
+    "lon": -6.536483,
+    "web": ""
+  },
+  "132": {
+    "name": "La Casa del Tiempo",
+    "location": "Piloña",
+    "lat": 43.347713,
+    "lon": -5.363262,
+    "web": ""
+  },
+  "133": {
+    "name": "The Pueblo de Asturias Folk Museum",
+    "location": "Gijón",
+    "lat": 43.537095,
+    "lon": -5.634525,
+    "web": ""
+  },
+  "134": {
+    "name": "Iron Crafts Interpretation Centre",
+    "location": "Boal",
+    "lat": 43.439369,
+    "lon": -6.85695,
+    "web": ""
+  },
+  "135": {
+    "name": "Emigration and Public Education Interpretation Centre.",
+    "location": "Boal",
+    "lat": 43.420693,
+    "lon": -6.822784,
+    "web": ""
+  },
+  "136": {
+    "name": "The House of Beekeeping",
+    "location": "Boal",
+    "lat": 43.434426,
+    "lon": -6.795305,
+    "web": ""
+  },
+  "137": {
+    "name": "The Cheese Cave",
+    "location": "Cabrales",
+    "lat": 43.299282,
+    "lon": -4.819475,
+    "web": ""
+  },
+  "138": {
+    "name": "The Radio House",
+    "location": "Bimenes",
+    "lat": 43.338917,
+    "lon": -5.585149,
+    "web": ""
+  },
+  "139": {
+    "name": "Museum of Covadonga",
+    "location": "Cangas de Onís",
+    "lat": 43.308567,
+    "lon": -5.054506,
+    "web": ""
+  },
+  "140": {
+    "name": "Jovellanos' Birthplace",
+    "location": "Gijón",
+    "lat": 43.545866,
+    "lon": -5.662634,
+    "web": ""
+  },
+  "141": {
+    "name": "Bridge over the River Sella ('Roman Bridge')",
+    "location": "Cangas de Onís",
+    "lat": 43.350164,
+    "lon": -5.131989,
+    "web": ""
+  },
+  "142": {
+    "name": "Pesoz Ethnological Museum",
+    "location": "Pesoz",
+    "lat": 43.255612,
+    "lon": -6.876789,
+    "web": ""
+  },
+  "143": {
+    "name": "Museo de la Romería",
+    "location": "Siero",
+    "lat": 43.405267,
+    "lon": -5.814968,
+    "web": ""
+  },
+  "144": {
+    "name": "The Forge Museum",
+    "location": "El Franco",
+    "lat": 43.550088,
+    "lon": -6.828135,
+    "web": ""
+  },
+  "145": {
+    "name": "Museo de la Cuchillería",
+    "location": "Taramundi",
+    "lat": 43.360649,
+    "lon": -7.116895,
+    "web": ""
+  },
+  "146": {
+    "name": "Benjamin Pumarada Museum of Customs (La Panerona de Cenera)",
+    "location": "Mieres",
+    "lat": 43.218663,
+    "lon": -5.818637,
+    "web": ""
+  },
+  "147": {
+    "name": "Collegiate Church of Our Lady of Covadonga",
+    "location": "Cangas de Onís",
+    "lat": 43.307926,
+    "lon": -5.054678,
+    "web": ""
+  },
+  "148": {
+    "name": "Asturian Popular Pottery House-Museum",
+    "location": "Cabranes",
+    "lat": 43.398548,
+    "lon": -5.421466,
+    "web": ""
+  },
+  "149": {
+    "name": "Valdés-Salas House-Palace",
+    "location": "Salas",
+    "lat": 43.409354,
+    "lon": -6.261403,
+    "web": ""
+  },
+  "150": {
+    "name": "Asturias si yo Pudiera",
+    "location": "Gijón",
+    "lat": 43.453958,
+    "lon": -5.625222,
+    "web": ""
+  },
+  "151": {
+    "name": "La Loja Cave Educational Exhibition",
+    "location": "Peñamellera Baja",
+    "lat": 43.3305,
+    "lon": -4.55362,
+    "web": ""
+  },
+  "152": {
+    "name": "Pre-Romanesque Museum of San Martín de Salas",
+    "location": "Salas",
+    "lat": 43.409315,
+    "lon": -6.261918,
+    "web": ""
+  }
+}

@@ -1,0 +1,714 @@
+{
+  "0": {
+    "name": "Fiesta de las Piraguas - Descenso Internacional del Sella",
+    "location": "Arriondas/Les Arriondes  y Ribadesella/Ribeseya",
+    "lat": 43.389726,
+    "lon": -5.182773,
+    "date": "Primer sábado agosto (siempre que no sea día 1 ó 2)",
+    "web": ""
+  },
+  "1": {
+    "name": "La Regalina",
+    "location": "Cadavéu",
+    "lat": 43.554803,
+    "lon": -6.372554,
+    "date": "Último domingo de agosto",
+    "web": ""
+  },
+  "2": {
+    "name": "Fiesta del Asturcón",
+    "location": "Majada de Espineres",
+    "lat": 43.41125,
+    "lon": -5.310341,
+    "date": "19 Agosto",
+    "web": ""
+  },
+  "3": {
+    "name": "Fiesta de Santa María Magdalena en Cangas del Narcea",
+    "location": "Cangas del Narcea",
+    "lat": 43.177883,
+    "lon": -6.549943,
+    "date": "22 Julio",
+    "web": ""
+  },
+  "4": {
+    "name": "Fiesta de Santa María Magdalena en Llanes",
+    "location": "Llanes",
+    "lat": 43.421198,
+    "lon": -4.754347,
+    "date": "22 Julio",
+    "web": ""
+  },
+  "5": {
+    "name": "Festival de la Sidra Natural en Nava",
+    "location": "Nava",
+    "lat": 43.358222,
+    "lon": -5.50658,
+    "date": "Julio (8 y 9)",
+    "web": ""
+  },
+  "6": {
+    "name": "Festival de la Sidra Natural en Gijón",
+    "location": "Gijón/Xixón",
+    "lat": 43.542737,
+    "lon": -5.667553,
+    "date": "Agosto (18 a 27)",
+    "web": ""
+  },
+  "7": {
+    "name": "Semana Santa en Avilés",
+    "location": "Avilés",
+    "lat": 43.555453,
+    "lon": -5.922125,
+    "date": "Semana Santa",
+    "web": ""
+  },
+  "8": {
+    "name": "Semana Santa en Villaviciosa",
+    "location": "Villaviciosa",
+    "lat": 43.481671,
+    "lon": -5.432342,
+    "date": "Semana Santa",
+    "web": ""
+  },
+  "9": {
+    "name": "Antroxu en Avilés",
+    "location": "Avilés",
+    "lat": 43.553692,
+    "lon": -5.925177,
+    "date": "Martes de carnaval (28 Febrero)",
+    "web": ""
+  },
+  "10": {
+    "name": "Antroxu en Gijón",
+    "location": "Gijón/Xixón",
+    "lat": 43.538554,
+    "lon": -5.661207,
+    "date": "Martes de carnaval  (28 febrero)",
+    "web": ""
+  },
+  "11": {
+    "name": "Descenso a Nado de la Ría de Navia",
+    "location": "Navia",
+    "lat": 43.549866,
+    "lon": -6.725556,
+    "date": "6 Agosto",
+    "web": ""
+  },
+  "12": {
+    "name": "Travesía Internacional de la Costa Naviega",
+    "location": "Navia",
+    "lat": 43.558461,
+    "lon": -6.67529,
+    "date": "18 Junio",
+    "web": ""
+  },
+  "13": {
+    "name": "Festival Gastronómico de la Angula",
+    "location": "L´Arena",
+    "lat": 43.55816,
+    "lon": -6.076221,
+    "date": "Marzo (3, 4 y 5)",
+    "web": ""
+  },
+  "14": {
+    "name": "Rally \"Princesa de Asturias\"",
+    "location": "Varias localidades",
+    "lat": 43.36142534992229,
+    "lon": -5.850454076708942,
+    "date": "Septiembre (5 a 9)",
+    "web": ""
+  },
+  "15": {
+    "name": "Nuestra Señora del Rosario",
+    "location": "Luarca/Ḷḷuarca",
+    "lat": 43.546445,
+    "lon": -6.533615,
+    "date": "15 Agosto",
+    "web": ""
+  },
+  "16": {
+    "name": "Descenso Folklórico del Nalón",
+    "location": "La Pola Llaviana/Pola de Laviana",
+    "lat": 43.237875,
+    "lon": -5.544184,
+    "date": "19 agosto",
+    "web": ""
+  },
+  "17": {
+    "name": "Vía Crucis Viviente",
+    "location": "Vilanova",
+    "lat": 43.311318,
+    "lon": -6.986816,
+    "date": "6 Abril",
+    "web": ""
+  },
+  "18": {
+    "name": "San Timoteo",
+    "location": "Luarca/Ḷḷuarca",
+    "lat": 43.54392,
+    "lon": -6.535111,
+    "date": "22 Agosto",
+    "web": ""
+  },
+  "19": {
+    "name": "Romería de los Santos Mártires de Valdecuna",
+    "location": "Insierto. Cuna",
+    "lat": 43.220928,
+    "lon": -5.806572,
+    "date": "27 Septiembre",
+    "web": ""
+  },
+  "20": {
+    "name": "Preba de la Sidra",
+    "location": "Oviedo/Uviéu",
+    "lat": 43.364393,
+    "lon": -5.844685,
+    "date": "4 de junio (de 12:00 a 15:00 h)",
+    "web": ""
+  },
+  "21": {
+    "name": "Jornadas Gastronómicas del Pote",
+    "location": "Turón",
+    "lat": 43.211435,
+    "lon": -5.73556,
+    "date": "Diciembre",
+    "web": ""
+  },
+  "22": {
+    "name": "Jira al Embalse de Trasona",
+    "location": "Trasona/Tresona",
+    "lat": 43.538397,
+    "lon": -5.870339,
+    "date": "1 Mayo",
+    "web": ""
+  },
+  "23": {
+    "name": "Foguera de San Xuan de Corvera",
+    "location": "Trasona/Tresona",
+    "lat": 43.534964,
+    "lon": -5.878612,
+    "date": "23 Junio",
+    "web": ""
+  },
+  "24": {
+    "name": "Fiestas de San Roque",
+    "location": "Llanes",
+    "lat": 43.420656,
+    "lon": -4.754796,
+    "date": "16 Agosto",
+    "web": ""
+  },
+  "25": {
+    "name": "Fiesta Vaqueira",
+    "location": "Braña de Aristébanu",
+    "lat": 43.445219,
+    "lon": -6.537525,
+    "date": "Último domingo de julio",
+    "web": ""
+  },
+  "26": {
+    "name": "Fiesta del Pastor",
+    "location": "La Vega (Lago Enol)",
+    "lat": 43.274258,
+    "lon": -4.989293,
+    "date": "25 Julio",
+    "web": ""
+  },
+  "27": {
+    "name": "Fiesta del Cordero",
+    "location": "Prau Llagüezos",
+    "lat": 43.146036,
+    "lon": -5.906719,
+    "date": "Primer domingo de julio",
+    "web": ""
+  },
+  "28": {
+    "name": "Fiesta de los Pimientos Rellenos",
+    "location": "Blimea",
+    "lat": 43.272993,
+    "lon": -5.589371,
+    "date": "8 Diciembre",
+    "web": ""
+  },
+  "29": {
+    "name": "Fiesta de los Humanitarios",
+    "location": "Morea/Moreda",
+    "lat": 43.168529,
+    "lon": -5.738575,
+    "date": "11 Noviembre",
+    "web": ""
+  },
+  "30": {
+    "name": "Fiesta de los Huevos Pintos",
+    "location": "La Pola Siero",
+    "lat": 43.393427,
+    "lon": -5.660276,
+    "date": "Martes de Pascua",
+    "web": ""
+  },
+  "31": {
+    "name": "Fiesta de El Bollo",
+    "location": "Avilés",
+    "lat": 43.553603,
+    "lon": -5.920635,
+    "date": "Lunes de Pascua",
+    "web": ""
+  },
+  "32": {
+    "name": "Festividad de La Ponte",
+    "location": "La Ponteveiga",
+    "lat": 43.461892,
+    "lon": -6.178608,
+    "date": "Septiembre (10 y 11)",
+    "web": ""
+  },
+  "33": {
+    "name": "Festival Internacional Longboard Surf Salinas",
+    "location": "Salinas",
+    "lat": 43.581376,
+    "lon": -5.967203,
+    "date": "Julio",
+    "web": ""
+  },
+  "34": {
+    "name": "Feria de la Miel de Boal",
+    "location": "Boal/Bual",
+    "lat": 43.428673,
+    "lon": -6.818063,
+    "date": "28 y 29 Octubre",
+    "web": ""
+  },
+  "35": {
+    "name": "Primera Flor de Grado",
+    "location": "Grau (Grado)",
+    "lat": 43.38691234410145,
+    "lon": -6.072501489368943,
+    "date": "Abril (15 y 16)",
+    "web": ""
+  },
+  "36": {
+    "name": "Torneo \"Tenis-Playa\"",
+    "location": "Luanco",
+    "lat": 43.614181,
+    "lon": -5.791665,
+    "date": "30 Julio a 2 Agosto",
+    "web": ""
+  },
+  "37": {
+    "name": "San Roque",
+    "location": "Tinéu",
+    "lat": 43.338952,
+    "lon": -6.403307,
+    "date": "16 Agosto",
+    "web": ""
+  },
+  "38": {
+    "name": "Sacramental de Cue",
+    "location": "Cue",
+    "lat": 43.411693,
+    "lon": -4.735728,
+    "date": "24 Junio",
+    "web": ""
+  },
+  "39": {
+    "name": "Procesión Marinera de San Juan",
+    "location": "L´Arena",
+    "lat": 43.556691,
+    "lon": -6.076393,
+    "date": "24 Junio",
+    "web": ""
+  },
+  "40": {
+    "name": "Primer Desembarco de Carlos V",
+    "location": "Tazones",
+    "lat": 43.545284,
+    "lon": -5.399621,
+    "date": "Agosto (26 y 27)",
+    "web": ""
+  },
+  "41": {
+    "name": "Nuestra Señora del Carmen - La Descarga",
+    "location": "Cangas del Narcea",
+    "lat": 43.175473,
+    "lon": -6.550772,
+    "date": "16 Julio",
+    "web": ""
+  },
+  "42": {
+    "name": "Noche Mágica y Festival Esfoyón y Amagüestu",
+    "location": "Navelgas",
+    "lat": 43.403867,
+    "lon": -6.543256,
+    "date": "11 Noviembre",
+    "web": ""
+  },
+  "43": {
+    "name": "Mercáu Tradicional de Oles",
+    "location": "Oles",
+    "lat": 43.539607,
+    "lon": -5.427963,
+    "date": "Primer fin de semana de agosto",
+    "web": ""
+  },
+  "44": {
+    "name": "Mercado Vaqueiro",
+    "location": "San Martín de Luiña",
+    "lat": 43.544619,
+    "lon": -6.224733,
+    "date": "Agosto",
+    "web": ""
+  },
+  "45": {
+    "name": "Mercado Artesano y Ecológico de Gijón",
+    "location": "Gijón/Xixón",
+    "lat": 43.544909,
+    "lon": -5.662528,
+    "date": "Enero (14 y 15)<br/>Febrero (11 y 12)<br/>Marzo (11 y 12)<br/>Abril (6, 7, 8 y 9)<br/>Mayo (13 y 14)<br/>Junio (10 y 11)<br/>Julio (8 y 9)<br/>Agosto (15, 16 y 17)<br/>Septiembre (8, 9 y 10)<br/>Octubre (12, 13, 14 y 15)<br/>Noviembre (11 y 12)<br/>Diciembre (6, 7, 8, 9 y10)",
+    "web": ""
+  },
+  "46": {
+    "name": "Jornadas Gastronómicas de la Matanza de Amieva y Alto Sella",
+    "location": "Varias localidades",
+    "lat": 43.277533,
+    "lon": -5.137023,
+    "date": "Febrero (todos los fines de semana)",
+    "web": ""
+  },
+  "47": {
+    "name": "Jornadas Gastronómicas de la Llámpara",
+    "location": "Quintes",
+    "lat": 43.532507,
+    "lon": -5.553577,
+    "date": "Tercera semana de mayo",
+    "web": ""
+  },
+  "48": {
+    "name": "Fiestas de San Antonio de Padua",
+    "location": "Cangues d´Onis/Cangas de Onís",
+    "lat": 43.350903,
+    "lon": -5.127389,
+    "date": "13 Junio",
+    "web": ""
+  },
+  "49": {
+    "name": "Fiesta Gastronómica del Desarme",
+    "location": "Oviedo/Uviéu",
+    "lat": 43.361915,
+    "lon": -5.849388,
+    "date": "19 octubre",
+    "web": ""
+  },
+  "50": {
+    "name": "Fiesta Gastronómica \"Su Excelencia la Fabada\"",
+    "location": "La Felguera",
+    "lat": 43.30910147371246,
+    "lon": -5.695647964606221,
+    "date": "Segundo fin de semana de diciembre",
+    "web": ""
+  },
+  "51": {
+    "name": "Fiesta Día de los Pueblos de Asturias",
+    "location": "Navelgas",
+    "lat": 43.403867,
+    "lon": -6.543256,
+    "date": "Agosto",
+    "web": ""
+  },
+  "52": {
+    "name": "Fiesta del Santo Cristo del Amparo",
+    "location": "Nueva",
+    "lat": 43.436128,
+    "lon": -4.94291,
+    "date": "Septiembre (13 y 14)",
+    "web": ""
+  },
+  "53": {
+    "name": "Fiesta del Picadillo y El Sabadiego",
+    "location": "Noreña",
+    "lat": 43.393705,
+    "lon": -5.708014,
+    "date": "Lunes más próximo al 25 de abril (San Marcos)",
+    "web": ""
+  },
+  "54": {
+    "name": "Fiesta del Bollu",
+    "location": "Arriondas/Les Arriondes",
+    "lat": 43.385528,
+    "lon": -5.218054,
+    "date": "Julio",
+    "web": ""
+  },
+  "55": {
+    "name": "Fiesta del Alba",
+    "location": "Salceo",
+    "lat": 43.160222,
+    "lon": -5.97395,
+    "date": "15 Agosto",
+    "web": ""
+  },
+  "56": {
+    "name": "Fiesta de Santu Medé (San Emeterio y San Celedonio)",
+    "location": "Pimiango",
+    "lat": 43.388381,
+    "lon": -4.54117,
+    "date": "Marzo",
+    "web": ""
+  },
+  "57": {
+    "name": "Fiesta de San Pedrín de la Cueva",
+    "location": "Narzana",
+    "lat": 43.414545,
+    "lon": -5.579875,
+    "date": "Agosto",
+    "web": ""
+  },
+  "58": {
+    "name": "Fiesta de Nuestra Señora del Carmen y Carmín",
+    "location": "La Pola Siero",
+    "lat": 43.390895,
+    "lon": -5.662186,
+    "date": "Julio",
+    "web": ""
+  },
+  "59": {
+    "name": "Fiesta de Nuestra Señora de El Carbayu",
+    "location": "El Carbayu",
+    "lat": 43.280813,
+    "lon": -5.687304,
+    "date": "8 Septiembre",
+    "web": ""
+  },
+  "60": {
+    "name": "Fiesta de los Nabos",
+    "location": "Sotrondio",
+    "lat": 43.27443,
+    "lon": -5.60722,
+    "date": "11 Noviembre",
+    "web": ""
+  },
+  "61": {
+    "name": "Fiesta de los Exconxuraos",
+    "location": "Recinto Ferial de Llanera",
+    "lat": 43.43103,
+    "lon": -5.86483,
+    "date": "Primer fin de semana de julio",
+    "web": ""
+  },
+  "62": {
+    "name": "Fiesta de Les Cebolles Rellenes",
+    "location": "L´Entregu/El Entrego",
+    "lat": 43.287339,
+    "lon": -5.637692,
+    "date": "30 Noviembre",
+    "web": ""
+  },
+  "63": {
+    "name": "Fiesta de la Virgen de la Guía",
+    "location": "Llanes",
+    "lat": 43.418273,
+    "lon": -4.749603,
+    "date": "8 Septiembre",
+    "web": ""
+  },
+  "64": {
+    "name": "Fiesta de la Vendimia del Vino de Calidad de Cangas",
+    "location": "Cangas del Narcea",
+    "lat": 43.176058,
+    "lon": -6.549189,
+    "date": "Octubre (12 a 15)",
+    "web": ""
+  },
+  "65": {
+    "name": "Fiesta de L'Amuravela",
+    "location": "Cudillero",
+    "lat": 43.563485,
+    "lon": -6.145939,
+    "date": "29 Junio",
+    "web": ""
+  },
+  "66": {
+    "name": "Fiesta de El Guirria y del Aguinaldo",
+    "location": "San Xuan/ San Juan de Beleño",
+    "lat": 43.19103,
+    "lon": -5.165577,
+    "date": "1 Enero",
+    "web": ""
+  },
+  "67": {
+    "name": "Festividad de Nuestra Señora del Cébrano",
+    "location": "Carrea",
+    "lat": 43.145495,
+    "lon": -6.070445,
+    "date": "15 Agosto",
+    "web": ""
+  },
+  "68": {
+    "name": "Festival Intercélticu d'Avilés y Comarca",
+    "location": "Varias localidades",
+    "lat": 43.555457,
+    "lon": -5.922355,
+    "date": "Julio (22 a 30)",
+    "web": ""
+  },
+  "69": {
+    "name": "Festival Intercéltico d'Occidente",
+    "location": "Tapia",
+    "lat": 43.570055,
+    "lon": -6.943778,
+    "date": "Agosto",
+    "web": ""
+  },
+  "70": {
+    "name": "Festival del Arroz con Leche",
+    "location": "Santolaya",
+    "lat": 43.417155,
+    "lon": -5.409958,
+    "date": "Segundo domingo de Mayo",
+    "web": ""
+  },
+  "71": {
+    "name": "Festival de la Sardina",
+    "location": "Candás",
+    "lat": 43.592436,
+    "lon": -5.765489,
+    "date": "1 Agosto",
+    "web": ""
+  },
+  "72": {
+    "name": "Festival de la Manzana",
+    "location": "Villaviciosa",
+    "lat": 43.481671,
+    "lon": -5.432342,
+    "date": "Octubre (14 y 15)",
+    "web": ""
+  },
+  "73": {
+    "name": "Festival de la Avellana",
+    "location": "L´Infiestu",
+    "lat": 43.348808,
+    "lon": -5.363203,
+    "date": "1 Octubre",
+    "web": ""
+  },
+  "74": {
+    "name": "Festival de Bandes de Gaites Villa de Candás",
+    "location": "Candás",
+    "lat": 43.588434,
+    "lon": -5.767592,
+    "date": "Julio",
+    "web": ""
+  },
+  "75": {
+    "name": "Feria del Salmón",
+    "location": "Corniana/Cornellana",
+    "lat": 43.412317,
+    "lon": -6.157626,
+    "date": "Abril (1 e 2)",
+    "web": ""
+  },
+  "76": {
+    "name": "Feria de La Ascensión",
+    "location": "Oviedo/Uviéu",
+    "lat": 43.36613,
+    "lon": -5.855628,
+    "date": "Mayo (19, 20 y 21)",
+    "web": ""
+  },
+  "77": {
+    "name": "El Carmen de Torazo",
+    "location": "Torazu",
+    "lat": 43.395103,
+    "lon": -5.40071,
+    "date": "27 agosto",
+    "web": ""
+  },
+  "78": {
+    "name": "Desfile de Carrozas",
+    "location": "Valdesoto",
+    "lat": 43.363689,
+    "lon": -5.654701,
+    "date": "Agosto (11 a 14)",
+    "web": ""
+  },
+  "79": {
+    "name": "Concurso de Saltos Internacional Oficial de España / CSIO",
+    "location": "Gijón/Xixón",
+    "lat": 43.528094049481965,
+    "lon": -5.640344330684521,
+    "date": "Agosto (23 a 27)",
+    "web": ""
+  },
+  "80": {
+    "name": "Certamen del Quesu Casín",
+    "location": "El Campu",
+    "lat": 43.183219,
+    "lon": -5.344876,
+    "date": "26 Agosto",
+    "web": ""
+  },
+  "81": {
+    "name": "Certamen del Queso de Gamonedo",
+    "location": "Benia",
+    "lat": 43.334675,
+    "lon": -4.969358,
+    "date": "Octubre",
+    "web": ""
+  },
+  "82": {
+    "name": "Certamen del Queso de Cabrales",
+    "location": "Arenas",
+    "lat": 43.302694,
+    "lon": -4.816613,
+    "date": "27 Agosto",
+    "web": ""
+  },
+  "83": {
+    "name": "Carreras de Caballos de la Playa de Ribadesella",
+    "location": "Ribadesella/Ribeseya",
+    "lat": 43.466347,
+    "lon": -5.064586,
+    "date": "Abril (6 y 7)",
+    "web": ""
+  },
+  "84": {
+    "name": "Campeonato Nacional de Bateo del Oro",
+    "location": "Navelgas",
+    "lat": 43.403775,
+    "lon": -6.543253,
+    "date": "Julio (28, 29 y 30)",
+    "web": ""
+  },
+  "85": {
+    "name": "Feria de Indianos",
+    "location": "Colombres",
+    "lat": 43.374791,
+    "lon": -4.540981,
+    "date": "Julio (7, 8 y 9)",
+    "web": ""
+  },
+  "86": {
+    "name": "Día de Asturias",
+    "location": "Gijón/Xixón",
+    "lat": 43.548723,
+    "lon": -5.663105,
+    "date": "6 agosto",
+    "web": ""
+  },
+  "87": {
+    "name": "Día de América en Asturias",
+    "location": "Oviedo/Uviéu",
+    "lat": 43.364077,
+    "lon": -5.851259,
+    "date": "19 septiembre",
+    "web": ""
+  },
+  "88": {
+    "name": "Alfombras Florales del Corpus",
+    "location": "Castropol",
+    "lat": 43.527889,
+    "lon": -7.029935,
+    "date": "Domingo de Corpus (11 junio)",
+    "web": ""
+  }
+}

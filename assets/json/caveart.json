@@ -1,0 +1,107 @@
+{
+  "0": {
+    "name": "Entrefoces Rock Shelter",
+    "location": "Morcín",
+    "lat": 43.257163,
+    "lon": -5.87121,
+    "web": ""
+  },
+  "1": {
+    "name": "Covaciella Cave",
+    "location": "Cabrales",
+    "lat": 43.318232,
+    "lon": -4.875262,
+    "web": "https://artepaleoliticoenasturias.com/investigacion-y-paraiso-rupestre/la-covaciella/"
+  },
+  "2": {
+    "name": "Llonín Cave",
+    "location": "Peñamellera Alta",
+    "lat": 43.330556,
+    "lon": -4.645278,
+    "web": "https://artepaleoliticoenasturias.com/patrimonio-de-la-humanidad/llonin/"
+  },
+  "3": {
+    "name": "El Pindal Cave",
+    "location": "Ribadedeva",
+    "lat": 43.397267,
+    "lon": -4.532719,
+    "web": "https://yacimientos.asturias.es/cueva-del-pindal"
+  },
+  "4": {
+    "name": "La Peña Cave, Candamo",
+    "location": "Candamo",
+    "lat": 43.4562379244223,
+    "lon": -6.072609114698514,
+    "web": "http://entradas.demo.tragsatec.es/"
+  },
+  "5": {
+    "name": "Tito Bustillo Cave",
+    "location": "Ribadesella",
+    "lat": 43.4607,
+    "lon": -5.06735,
+    "web": "http://www.centrotitobustillo.com/"
+  },
+  "6": {
+    "name": "La Lluera Cave",
+    "location": "Oviedo",
+    "lat": 43.334687,
+    "lon": -5.933297,
+    "web": "https://artepaleoliticoenasturias.com/cuevas-visitables/la-cuenca-del-nalon/la-lluera/"
+  },
+  "7": {
+    "name": "Fresnedo Rock Shelters",
+    "location": "Teverga",
+    "lat": 43.123477,
+    "lon": -6.054853,
+    "web": ""
+  },
+  "8": {
+    "name": "La Loja Cave",
+    "location": "Peñamellera Baja",
+    "lat": 43.331435,
+    "lon": -4.559488,
+    "web": "https://www.aytopbpanes.es/cueva-de-la-loja"
+  },
+  "9": {
+    "name": "El Buxu Cave",
+    "location": "Cangas de Onís",
+    "lat": 43.35773,
+    "lon": -5.099614,
+    "web": "https://artepaleoliticoenasturias.com/el-buxu/"
+  },
+  "10": {
+    "name": "Ardines Cave",
+    "location": "Ribadesella",
+    "lat": 43.4607,
+    "lon": -5.06735,
+    "web": "http://www.centrotitobustillo.com"
+  },
+  "11": {
+    "name": "El Conde or El Fornu Cave",
+    "location": "Santo Adriano",
+    "lat": 43.298253,
+    "lon": -5.986963,
+    "web": "https://laponte.org/"
+  },
+  "12": {
+    "name": "Santo Adriano Rock Shelter",
+    "location": "Santo Adriano",
+    "lat": 43.29858,
+    "lon": -5.987977,
+    "web": "https://www.turismoasturias.es/descubre/cultura/arte-rupestre/rupestre-cueva-del-demo"
+  },
+  "13": {
+    "name": "El Demo Cave",
+    "location": "Boal",
+    "lat": 43.38293,
+    "lon": -6.850428,
+    "web": "https://www.turismoasturias.es/descubre/cultura/arte-rupestre/rupestre-cueva-de-los-azules"
+  },
+  "14": {
+    "name": "Los Azules Cave",
+    "location": "Cangas de Onís",
+    "lat": 43.359864,
+    "lon": -5.131429,
+    "web": ""
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "0": {
+    "name": "Santa María del Naranco",
+    "location": "Oviedo",
+    "lat": 43.379055,
+    "lon": -5.865849,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/46/en-oviedouviu/61/santa-mara-del-naranco.html"
+  },
+  "1": {
+    "name": "The Church of San Salvador de Priesca",
+    "location": "Villaviciosa",
+    "lat": 43.484586,
+    "lon": -5.360632,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/47/en-villaviciosa/65/san-salvador-de-priesca.html"
+  },
+  "2": {
+    "name": "Santa Cristina de Lena",
+    "location": "Lena",
+    "lat": 43.128594,
+    "lon": -5.813222,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/44/en-lena-santa-cristina-de-lena.html"
+  },
+  "3": {
+    "name": "Basilica of San Juan",
+    "location": "Pravia",
+    "lat": 43.501959,
+    "lon": -6.099163,
+    "web": "https://praviaturismo.es/santianes-joya-prerromanico/"
+  },
+  "4": {
+    "name": "Church of San Miguel de Lillo",
+    "location": "Oviedo",
+    "lat": 43.380314,
+    "lon": -5.868406,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/46/en-oviedo/58/san-miguel-de-lillo.html"
+  },
+  "5": {
+    "name": "La Foncalada",
+    "location": "Oviedo",
+    "lat": 43.36528,
+    "lon": -5.846036,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/46/en-oviedo/56/foncalada.html"
+  },
+  "6": {
+    "name": "Church of San Pedro de Nora",
+    "location": "Las Regueras",
+    "lat": 43.36908,
+    "lon": -5.962004,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/43/en-las-regueras-san-pedru-nora.html"
+  },
+  "7": {
+    "name": "Church of Santiago (Gobiendes)",
+    "location": "Colunga",
+    "lat": 43.46928,
+    "lon": -5.232562,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/42/en-colunga/51/santiago-de-gobiendes.html"
+  },
+  "8": {
+    "name": "Church of San Salvador de Valdediós",
+    "location": "Villaviciosa",
+    "lat": 43.436857,
+    "lon": -5.506621,
+    "web": "https://monasteriovaldedios.com/"
+  },
+  "9": {
+    "name": "Holy Chamber",
+    "location": "Oviedo",
+    "lat": 43.362488,
+    "lon": -5.843598,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/46/en-oviedo/55/cmara-santa.html"
+  },
+  "10": {
+    "name": "Church of San Julián de los Prados",
+    "location": "Oviedo",
+    "lat": 43.367712,
+    "lon": -5.837325,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/46/en-oviedouviu/57/san-julin-de-los-prados.html"
+  },
+  "11": {
+    "name": "Church of Santo Adriano",
+    "location": "Santo Adriano",
+    "lat": 43.291615,
+    "lon": -5.981285,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/45/en-santo-adriano-santo-adriano-de-tun.html"
+  },
+  "12": {
+    "name": "San Andrés de Bedriñana",
+    "location": "Villaviciosa",
+    "lat": 43.500562,
+    "lon": -5.438335,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/47/en-villaviciosa/63/san-andrs-de-bedriana.html"
+  },
+  "13": {
+    "name": "Church of San Tirso el Real",
+    "location": "Oviedo",
+    "lat": 43.362194,
+    "lon": -5.843767,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/46/en-oviedo/59/san-tirso-el-real.html"
+  },
+  "14": {
+    "name": "Church of Santa María de Bendones",
+    "location": "Oviedo",
+    "lat": 43.3362,
+    "lon": -5.806374,
+    "web": "http://www.prerromanicoasturiano.es/es/26/monumentos/46/en-oviedo/60/santa-mara-de-bendones.html"
+  }
+}

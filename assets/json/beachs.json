@@ -1,0 +1,92 @@
+{
+  "0": {
+    "name": "Playa de Frejulfe",
+    "location": "Navia",
+    "lat": 43.559242957874275,
+    "lon": -6.678178213857105
+  },
+  "1" : {
+    "name": "Playa de Barayo",
+    "location": "Valdes",
+    "lat": 43.5611299946517, 
+    "lon": -6.6147227109512485
+  },
+  "2" : {
+    "name": "Playa del Silencio",
+    "location": "Cudillero",
+    "lat": 43.559242957874275,
+    "lon": -6.678178213857105
+  },
+  "3" : {
+    "name": "Playa de Aguilar",
+    "location": "Muros del Nalon",
+    "lat": 43.55544353127032, 
+    "lon": -6.117195882189477
+  },
+  "4" : {
+    "name": "Playa de Bayas",
+    "location": "Soto del Barco",
+    "lat": 43.57438664365277, 
+    "lon": -6.046096056580671
+  },
+  "5" : {
+    "name": "Playa de Xago",
+    "location": "Gozon",
+    "lat": 43.60443984049431, 
+    "lon": -5.919146681173571
+  },
+  "6" : {
+    "name": "Playa de San Lorenzo",
+    "location": "Gijon",
+    "lat": 43.54110012380463, 
+    "lon": -5.649959631550893
+  },
+  "7" : {
+    "name": "Playa de la Ñora",
+    "location": "Villaviciosa",
+    "lat": 43.547702158403915, 
+    "lon": -5.590716761891025
+  },
+  "8" : {
+    "name": "Playa de Rodiles",
+    "location": "Villaviciosa",
+    "lat": 43.53375537974193, 
+    "lon": -5.3799542178206154
+  },
+  "9" : {
+    "name": "Playa de Santa Marina",
+    "location": "Ribadesella",
+    "lat": 43.46582951809735, 
+    "lon": -5.066086551093735
+  },
+  "10" : {
+    "name": "Playa de Guadamía",
+    "location": "Llanes",
+    "lat": 43.45770440061257, 
+    "lon": -4.9814698018042485
+  },
+  "11" : {
+    "name": "Playa de Torimbia",
+    "location": "Llanes",
+    "lat": 43.44251780581913, 
+    "lon": -4.852247726962976
+  },
+  "12" : {
+    "name": "Playa de Gulpiyuri",
+    "location": "Llanes",
+    "lat": 43.44752158828277, 
+    "lon": -4.885978685119936
+  },
+  "13" : {
+    "name": "Playa de la Ballota",
+    "location": "Llaanes",
+    "lat": 43.41240369887427, 
+    "lon": -4.713808116079639
+  },
+  "14" : {
+    "name": "Playa de la Franca",
+    "location": "Ribadeva",
+    "lat": 43.39420936940198,
+    "lon": -4.574860567947126
+  }
+}
