@@ -20,7 +20,7 @@ body{
   margin: 0;
 }
 
-/*colors*/
+/* ------ colors ------ */
 
 .text-white{
   color: #fafafa
@@ -30,7 +30,7 @@ body{
   color: #FFD700;
 }
 
-/*spacing*/
+/* ------ spacing ------ */
 
 .text-center{
   text-align: center;
@@ -41,8 +41,7 @@ body{
   align-self: center;
 }
 
-
-/* fonts  */
+/* ------ fonts ------ */
 
 h1, h2 {
   font-family: 'Lora', serif;
@@ -63,18 +62,8 @@ p{
 button{
   font-family: 'Bebas Neue', sans-serif;
 }
-/* header */
+/* ------------------ header ------------------ */
 
-
-/*index*/
-
-
-
-
-
-
-
-/*index grid*/
 #container-header{
   display:grid;
   grid-template-columns: 35% 65%;
@@ -92,6 +81,7 @@ button{
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 #navigation{
   grid-column-start: 2;
   grid-column-end: 3;
@@ -99,6 +89,7 @@ button{
   align-self: center;
   text-align: right;
 }
+
 #navigation a{
   margin-right: 6%;
   color: #fafafa;
@@ -108,6 +99,9 @@ button{
 #navigation a:hover{
   color: #FFD700;
 }
+
+/* ------------------ index ------------------ */
+/* ------ index grid ------ */
 
 #contenedor-padre{
   /* margin-top: 20vh; */
@@ -126,6 +120,7 @@ button{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 #item2{
   grid-area: heading;
   /* background-color: rgb(214, 214, 79); */
@@ -133,14 +128,17 @@ button{
   text-align: center;
   
 }
+
 #item3{
   grid-area: text;
   align-self: center;
 }
+
 #item3 p{
   padding-left: 2%;
   padding-right: 4%;
 }
+
 #item4{
   grid-area: button;
   display: flex;
@@ -164,8 +162,7 @@ button{
 }
 
 
-/* weather.html */
-
+/* ------------------ weather.html ------------------ */
 
 .container{
   height: 100vh;
@@ -178,19 +175,19 @@ button{
   background-color: #354F52;
   height: 100vh;
 }
-#container2{
-  
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-rows: repeat(2, 10% 40%);
-  grid-template-columns: repeat(2, 1fr);
-}
 
 #date-container{
   position: relative;
   top: 15vh;
   font-size: 1.5rem;
+}
+
+#temp-box{
+  color: #fafafa;
+  font-size: 1.2rem;
+  position: relative;
+  top: 27vh;
+  display: inline;
 }
 
 #image{
@@ -206,16 +203,18 @@ button{
   z-index: 3;
 }
 
-#temp-box{
-  color: #fafafa;
-  font-size: 1.2rem;
-  position: relative;
-  top: 27vh;
-  display: inline;
+#container2{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: repeat(2, 10% 40%);
+  grid-template-columns: repeat(2, 1fr);
 }
+
 .material-symbols-outlined{
   color: #fafafa;
 }
+
 .box-weather{
   background-color:#1f2f31;
   border: 1px solid #000000;
@@ -239,6 +238,7 @@ font-size: 120%;
   background-size: contain;
 }
 
+/* ------------------ map.html ------------------ */
 
 #map{
   width:75vw;
@@ -246,6 +246,7 @@ font-size: 120%;
   margin:2% auto;
   border: 1px solid black;
 }
+
 .asturias-center{
   text-align: center;
 }
@@ -264,13 +265,78 @@ font-size: 120%;
   border-color: #354F52;
 }
 
+/* ------------------ history.html ------------------ */
 
+.container-cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
+.card {
+  position: relative; /* Relative positioning to control positioned child elements */
+  width: 300px; 
+  height: 350px;
+  margin: 1%; /* 1% margin around the card */
+}
 
+.card .face {
+  position: absolute; /* Absolute positioning for controlling overlap */
+  width: 100%; 
+  height: 100%;
+  backface-visibility: hidden; /* Hide the back face in flip animations */
+  border-radius: 10px; 
+  overflow: hidden; /* Clip content that overflows the card area */
+  transition: 2000ms;  /* Set a 2-second transition for style changes */
+}
 
+.card .front {
+  transform: perspective(600px) rotateY(0deg); /* 3D transformation to create perspective when rotating */
+  box-shadow: 0 5px 10px #000000; /* Box shadow to add depth */
+}
 
+.card .front img {
+  position: absolute; /* Absolute positioning for controlling overlap */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Content fitting for covering all space */
+}
 
+.title{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: #000000;
+  opacity: 0.8;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+}
 
+.card .back {
+  transform: perspective(600px) rotateY(180deg); /* 3D transformation to create perspective when rotating. This hides the back side. */
+  background: #354F52; /* Background color for the back face */
+  padding: 5px; /* Internal spacing around content */
+  color: #fafafa;
+  display: flex; /* Flexbox layout with column direction */
+  flex-direction: column;
+  justify-content: space-between; /* Justification of content along the main axes */
+  text-align: center;
+}
+
+.info{
+  font-size: 12pt;
+}
+.card:hover .front{
+  transform: perspective(600px) rotateY(180deg)
+}
+
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
+  overflow-y: scroll;
+  z-index: 5;
+}
 
 @media screen and (max-width:768px){
   #contenedor-padre{
