@@ -59,7 +59,7 @@ const getCurrentWeather = async () => {
 // Función asincrónica para obtener los datos climáticos de una ciudad
 const getDataWeather = async (city) => {
   // Construir la URL para la solicitud de API utilizando la clave y la ciudad proporcionadas
-  let url = `https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${city}&days=5&aqi=no&alerts=no`;
+  let url = `https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${city}&days=3&aqi=no&alerts=no`;
 
   // Realizar la solicitud de API utilizando fetch
   const data = await fetch(url);
