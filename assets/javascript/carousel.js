@@ -7,7 +7,7 @@ new Swiper('#swiper-2',{
     enabled: true
   },
   autoplay: {
-    delay: 4000,
+    delay: 9000,
   },
   breakpoints:{
     320:{

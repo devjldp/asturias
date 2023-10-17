@@ -5,57 +5,60 @@ let restaurantIcon = L.icon({
   popupAnchor:  [0,0] 
 });
 
-let beachIcon = L.icon({
+let  beachIcon = L.icon({
   iconUrl: './assets/icons/beach_icon.png',
   iconSize:     [40, 40], 
   iconAnchor:   [20, 0], 
   popupAnchor:  [0, 0] 
 });
 
-let museumIcon = L.icon({
+let  museumIcon = L.icon({
   iconUrl: './assets/icons/museum.png',
   iconSize:     [40, 40], 
   iconAnchor:   [20, 0], 
   popupAnchor:  [0, 0] 
 });
 
-let currentPositionIcon = L.icon({
+let  currentPositionIcon = L.icon({
   iconUrl: './assets/icons/posicion.png',
   iconSize:     [40, 40], 
   iconAnchor:   [20, 0], 
   popupAnchor:  [0, 0]
 })
-//Geolocalizacion
-// Función asincrónica para obtener la ubicación geográfica del usuario
+
+/**
+ * Asynchronous function to obtain the user's geographic location.
+ * @returns {Promise<Array<number>>} A promise that resolves with an array [latitude, longitude].
+ */
 const getGeoLocation = async () => {
   return new Promise((resolve, reject) => {
-      // Opciones de configuración para la obtención de la ubicación
+      // Configuration options for location retrieval
       const options = {
           enableHighAccuracy: true,  // Habilita la alta precisión
-          timeout: 1000,  // Tiempo máximo para obtener la ubicación (en milisegundos)
-          maximumAge: 0,  // Edad máxima de la caché de la ubicación
+          timeout: 1000,  // Maximum time to obtain location (in milliseconds)
+          maximumAge: 0,  // Maximum location cache age
       };
-
-      // Función de éxito que se llama cuando se obtiene la ubicación
+      // Success callback when location is obtained
       const success = (position) => {
-          // Extraer latitud y longitud de la posición
           const lat = position.coords.latitude;
           const lon = position.coords.longitude;
-          // Resuelve la promesa con un array [latitud, longitud]
-          resolve([lat, lon]);
+          resolve([lat, lon]); // Resolve the promise with an array [latitude, longitude]
       };
-
-      // Función de error que se llama cuando ocurre un problema al obtener la ubicación
+      // Error callback when there is an issue obtaining the location
       const error = (msg) => {
-          // Rechaza la promesa con el mensaje de error proporcionado
+          // Reject the promise with the provided error message
           reject(msg);
       };
-
-      // Obtener la ubicación actual del usuario utilizando el objeto navigator.geolocation
+      // Get the user's current location using the navigator.geolocation object
       navigator.geolocation.getCurrentPosition(success, error, options);
   });
 }
 
+/**
+ * Asynchronous function to fetch data from a URL.
+ * @param {string} url - The URL from which to fetch data.
+ * @returns {Promise<Object>} A promise that resolves with the fetched data.
+ */
 const getData = async (url) => {
   let data = await fetch(url)
   let restaurants = await data.json()
@@ -71,15 +74,15 @@ window.addEventListener('DOMContentLoaded', async () => {
   const position = await getGeoLocation();
   // console.log(prueba)
   // console.log(typeof restaurants)
-
+  // Create a Leaflet map centered on the user's position
   let map = L.map('map').setView([position[0],position[1]],18);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       attribution: '© OpenStreetMap'
   }).addTo(map);
-
+  // Add a marker for the user's current position
   L.marker([position[0],position[1]], {icon: currentPositionIcon}).addTo(map)
-  let groupr = []
+  let group = []
   console.log(Object.keys(restaurants).length)
   for(let clave in restaurants){
       if(restaurants[clave]['web'] !=''){
@@ -92,19 +95,19 @@ window.addEventListener('DOMContentLoaded', async () => {
           } else if(restaurants[clave]['stars'] == 0){
               restaurantIcon = L.icon({ iconUrl: './assets/icons/gourmet_0star.png' });
           }
-          groupr.push(L.marker([restaurants[clave]['lat'],restaurants[clave]['lon']], {icon: restaurantIcon}).addTo(map)
+          group.push(L.marker([restaurants[clave]['lat'],restaurants[clave]['lon']], {icon: restaurantIcon}).addTo(map)
       .bindPopup(`${restaurants[clave]['name']} </br> ${restaurants[clave]['location']} </br> <a href="${restaurants[clave]['web']}" target="_blank">${restaurants[clave]['name']}</a>`))
       } else{
           restaurantIcon = L.icon({ iconUrl: './assets/icons/gourmet_0star.png' });
-          groupr.push(L.marker([restaurants[clave]['lat'],restaurants[clave]['lon']], {icon: restaurantIcon}).addTo(map)
+          group.push(L.marker([restaurants[clave]['lat'],restaurants[clave]['lon']], {icon: restaurantIcon}).addTo(map)
       .bindPopup(`${restaurants[clave]['name']} </br> ${restaurants[clave]['location']}`))
       }
       
   }
-  console.log(groupr.length)
+  console.log(group.length)
   
-  let restaurantLayer = L.layerGroup(groupr)
-  let group = []
+  let restaurantLayer = L.layerGroup(group)
+  group = []
   for(let clave in beaches){
       group.push(L.marker([beaches[clave]['lat'],beaches[clave]['lon']], {icon: beachIcon}).addTo(map)
       .bindPopup(`${beaches[clave]['name']} </br> `))
@@ -158,16 +161,7 @@ var layerControl = L.control.layers(overlayMaps).addTo(map);
   })
 
 })
-// 43.41838996896437, -5.193123562254709
-/*Usando Google: 
 
-L.tileLayer('https://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
-  maxZoom: 19,  // Nivel máximo de zoom
-  subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],  // Subdominios de Google Maps
-  attribution: '© Google Maps' 
-}).addTo(map);*/
-
-// var map = L.map('map').setView([51.505, -0.09], 13);
 
 
 
