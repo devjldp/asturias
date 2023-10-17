@@ -3,30 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Author: Jose Luis Diaz Pulgar">
+  <meta name="description" content= "Check the weather for the next few days."/>
+  <script src="https://kit.fontawesome.com/7eb6fd173c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./assets/styles/style.css">
-  <title>Document</title>
+  <title>Asturias-Weather</title>
 </head>
+
 <body>
 
-  <header id="container-header">
-    <div id="logo"></div>
-    <div id="navigation">
-      <a href="index.html">Home</a>
-      <a href="history.html">History</a>
-      <a href="">Gastronomy</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="map.html">Map</a>
-    </div>
+    <!-- header  -->
+    <header id="container-header">
+      <nav>
+          <div id="logo"></div>
+  <!-- navigation bar  -->
+          <div id="navigation" aria-label="Navigation bar">
+              <a href="index.html" aria-label="Go to landing page">Home</a>
+              <a href="history.html" aria-label="Go to history page to learn more about Asturias">History</a>
+              <a href="gallery.html" aria-label="Go to gallery page to see landscapes of Asturias">Gallery</a>
+              <a href="recipes.html" aria-label="Go to recipes page to discover typical dishes from Asturias">Recipes</a>
+              <a href="weather.html" aria-label="Go to weather app to check the weather and forecast">Weather</a>
+              <a href="map.html" aria-label="Go to a interactive map to discover activities around you in Asturias">Map</a>
+          </div>
+      </nav>
   </header>
   
-  <div class="container">
-    <div id="container1">
+  <main id="weather-container">
+    <!-- Current weather conditions for the current position -->
+    <section id="weather-container1">
       <div id="date-container"> 
         <div id="day" class="text-white text-center"></div>
-      <div id="date" class="text-white text-center"></div>
+        <div id="date" class="text-white text-center"></div>
       </div>
-      <div id="image"></div>
-      <div id="temp-box">
+      <div id="current-weather-image"></div>
+      <!-- weather conditions -->
+      <div id="temp-box" class="text-white">
         <div class="text-center mt-2">
           <p>Temperature: <span id="temp"></span></p>
         </div>
@@ -38,35 +49,56 @@
         </div>          
       </div>
       
-    </div> 
-    <div id="container2">
-      <div class="text-center align-center city-heading">Oviedo</div>
-      <div class="box-weather">
-        <div class="day-image oviedo"></div>
-        <div class="text-white text-center align-center info-oviedo"></div>
-      </div>
-      <div class="box-weather">
-        <div class="day-image oviedo"></div>
-        <div class="text-white text-center align-center info-oviedo"></div>
-      </div>
-
-
-
-      <div class="text-center align-center city-heading" >Gijon</div>
-
-      <div class="box-weather">
-        <div class="day-image gijon"></div>
-        <div class="text-white text-center align-center info-gijon"></div>
-      </div>
-      <div class="box-weather">
-        <div class="day-image gijon"></div>
-        <div class="text-white text-center align-center info-gijon"></div>
+    </section> 
+    <!-- weather condition in the two main cities of Asturias -->
+    <section id="weather-container2">
+      <div class="text-center align-center city-heading"><h1>Oviedo City</h1></div>
+      <div class="weather-container3">
+        <div class="box-weather">
+          <div class="day-image oviedo"></div>
+          <div class="text-white text-center align-center info-oviedo"></div>
+        </div>
+        <div class="box-weather">
+          <div class="day-image oviedo"></div>
+          <div class="text-white text-center align-center info-oviedo"></div>
+        </div>
       </div>
 
+      <div class="text-center align-center city-heading"><h1>Gijon City</h1></div>
+      <div class="weather-container3">
+        <div class="box-weather">
+          <div class="day-image gijon"></div>
+          <div class="text-white text-center align-center info-gijon"></div>
+        </div>
+        <div class="box-weather">
+          <div class="day-image gijon"></div>
+          <div class="text-white text-center align-center info-gijon"></div>
+        </div>
+      </div>
 
+
+    </section>
+  </main>
+
+  <footer>
+    <div id="footer-container">
+        <div class="text-center logo-name">
+            <p class="text-white">  &#169 2023, Explore Asturias</p>
+        </div>
+        <!-- social links -->
+        <div id="social-links">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="facebook">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
     </div>
-  </div>
-
+</footer>
   <script src="./assets/javascript/weather.js"></script>
 </body>
 </html>
