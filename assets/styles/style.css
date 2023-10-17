@@ -18,8 +18,15 @@ font-family: 'Irish Grover', cursive;*/
 body{
   background-color: #E8E2BA;
   margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
+
+main {
+  flex: 1 0 auto;
+}
 /* ------ colors ------ */
 
 .text-white{
@@ -30,6 +37,10 @@ body{
   color: #FFD700;
 }
 
+.text-olive{
+  color: #263133;
+  font-weight: bold;
+}
 /* ------ spacing ------ */
 
 .text-center{
@@ -41,6 +52,13 @@ body{
   align-self: center;
 }
 
+.mb-5{
+  margin-bottom: 5%;
+}
+
+.pl-5{
+  padding-left: 5%;
+}
 /* ------ fonts ------ */
 
 h1, h2 {
@@ -62,36 +80,47 @@ p{
 button{
   font-family: 'Bebas Neue', sans-serif;
 }
+
 /* ------------------ header ------------------ */
 
 #container-header{
-  display:grid;
-  grid-template-columns: 35% 65%;
-  grid-template-rows: 20vh;
-  background-color: #354F52;
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 10;
+    width: 100%;
+    height: 12vh;
+    background-color: #354F52;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+nav{
+    width: 100%;
+    height: 12vh;
+    display:flex;
+    flex-direction: row;
 }
 
 #logo{
-  background-image: url('../images/asturiaslogo.jpg');
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: contain;
+    flex: 30%;
+    height: 12vh;
+    background-image: url('../images/asturiaslogo.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #navigation{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  width: 100%;
-  align-self: center;
-  text-align: right;
+  flex: 70%;
+  display: flex;
+  height: 12vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
 }
 
 #navigation a{
-  margin-right: 6%;
+  /* margin-right: 6%; */
   color: #fafafa;
   text-decoration: none;
 }
@@ -100,52 +129,73 @@ button{
   color: #FFD700;
 }
 
-/* ------------------ index ------------------ */
-/* ------ index grid ------ */
-
-#contenedor-padre{
-  /* margin-top: 20vh; */
-  display: grid;
-  grid-template-rows: 30vh 30vh 20vh;
-  grid-template-columns: 40vw 60vw;
-  grid-template-areas:  "picture heading"
-                        "picture text"
-                        "button button";
+/* ------------------ footer ------------------ */
+footer{
+  width:100%;
+  height:10vh;
+  background-color: #354F52;
 }
 
-#item1{
-  grid-area: picture;
-  background-image: url('../images/cudillero.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+#footer-container{
+  width: 100%;
+  height: 10vh;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+/*width: 100%;
+height: 12vh;
+display:flex;
+flex-direction: row;*/
+
+.logo-name{
+  flex: 40%;
 }
 
-#item2{
-  grid-area: heading;
-  /* background-color: rgb(214, 214, 79); */
-  align-self: center;
-  text-align: center;
-  
-}
-
-#item3{
-  grid-area: text;
-  align-self: center;
-}
-
-#item3 p{
-  padding-left: 2%;
-  padding-right: 4%;
-}
-
-#item4{
-  grid-area: button;
+#social-links{
+  font-size: 150%;
+  flex: 60%;
+  list-style: none;
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 }
 
+#social-links a{
+  color: #fafafa;
+}
+
+#social-links a:hover{
+  color: #FFD700;
+}
+/* ------------------ index ------------------ */
+
+#index-container-father{
+    width: 100%;
+    height: 78vh;
+    background-image: url('../images/cudillero.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#text-main-image{
+    width: 60vw;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    /* opacity: 0.5; */
+    position: absolute;
+    bottom: 45%;
+    left: 20vw;
+}
+
+#index-buttons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 .button{
   text-decoration: none;
   background-color: #354F52;
@@ -154,6 +204,7 @@ button{
   border-radius: 25px;
   font-family: 'Bebas Neue', sans-serif;
   padding: 5px 10px;
+  font-size: 100%;
 }
 
 .button:hover{
@@ -161,123 +212,44 @@ button{
   color: #354F52;
 }
 
-/* ------------------ weather.html ------------------ */
-
-.container{
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: 100vh;
-}
-
-#container1{
-  background-color: #354F52;
-  height: 100vh;
-}
-
-#date-container{
-  position: relative;
-  top: 15vh;
-  font-size: 1.5rem;
-}
-
-#temp-box{
-  color: #fafafa;
-  font-size: 1.2rem;
-  position: relative;
-  top: 27vh;
-  display: inline;
-}
-
-#image{
-  position: relative;
-  width: 12vw;
-  height: 27vh;
-  top: 20vh;
-  left: 25%;
-  background-image: url('');
+#asturias-image{
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  bottom: 10vh;
+  right: 0%;
+  background-image: url('../images/asturias-spain.png');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: contain;
-  z-index: 3;
-}
-
-#container2{
-  display: grid;
-  width: 100%;
-  height: 100%;
-  grid-template-rows: repeat(2, 10% 40%);
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.material-symbols-outlined{
-  color: #fafafa;
-}
-
-.box-weather{
-  background-color:#1f2f31;
-  border: 1px solid #000000;
-  /* width: 98%; */
-  margin-left: 3%;
-  margin-right: 3%;
-}
-
-.city-heading{
-align-self: center;
-grid-column-start: 1;
-grid-column-end: 5;
-font-size: 120%;
-}
-
-.day-image{
-  height:50%;
-  background-image: url('');
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  opacity: 0.9;
+  z-index: 1;
 }
-
-/* ------------------ map.html ------------------ */
-
-#map{
-  width:75vw;
-  height:60vh;
-  margin:2% auto;
-  border: 1px solid black;
-}
-
-.asturias-center{
-  text-align: center;
-}
-
-.asturias-center button{
-  background-color: #354F52;
-  color: #fafafa;
-  border-radius: 25px;
-  width: 100px;
-  font-size: 16pt;
-  cursor: pointer;
-}
-.asturias-center button:hover{
-  background-color: #fafafa;
-  color: #354F52;
-  border-color: #354F52;
-}
-
-/* ------------------ history.html ------------------ */
+/* ------------------ History ------------------ */
 
 .container-cards{
+  width: 100%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
-
+.container-card{
+  flex: 40%;  
+}
 .card {
-  position: relative; /* Relative positioning to control positioned child elements */
-  width: 300px; 
-  height: 350px;
-  margin: 1%; /* 1% margin around the card */
+  position: relative;
+  width: 350px;
+  height: 406px;
+  margin: 0 auto;
+  margin-top: 5%;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  transform: translateX(0);
+  background-color: #E8E2BA;
+  margin-bottom: 5%;
 }
 
 .card .face {
@@ -289,17 +261,18 @@ font-size: 120%;
   overflow: hidden; /* Clip content that overflows the card area */
   transition: 2000ms;  /* Set a 2-second transition for style changes */
 }
-
+  
 .card .front {
   transform: perspective(600px) rotateY(0deg); /* 3D transformation to create perspective when rotating */
   box-shadow: 0 5px 10px #000000; /* Box shadow to add depth */
+  
 }
 
 .card .front img {
   position: absolute; /* Absolute positioning for controlling overlap */
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Content fitting for covering all space */
+  object-fit: cover; 
 }
 
 .title{
@@ -311,31 +284,186 @@ font-size: 120%;
   color: #ffffff;
   text-align: center;
   justify-content: center;
+  font-size: 1.2rem;
 }
 
 .card .back {
   transform: perspective(600px) rotateY(180deg); /* 3D transformation to create perspective when rotating. This hides the back side. */
-  background: #354F52; /* Background color for the back face */
-  padding: 5px; /* Internal spacing around content */
+  background: #354F52; 
+  padding: 5px; 
   color: #fafafa;
-  display: flex; /* Flexbox layout with column direction */
+  display: flex; 
   flex-direction: column;
-  justify-content: space-between; /* Justification of content along the main axes */
+  justify-content: space-between; 
   text-align: center;
+  overflow-y: scroll;
 }
 
 .info{
-  font-size: 12pt;
-}
-.card:hover .front{
-  transform: perspective(600px) rotateY(180deg)
+  font-size: 1rem;
 }
 
-.card:hover .back {
-  transform: perspective(600px) rotateY(360deg);
-  overflow-y: scroll;
-  z-index: 5;
+.card.is-flipped {
+  transform: rotateY(180deg);
 }
+
+.card .back::-webkit-scrollbar {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+
+.card .back::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.card .back::-webkit-scrollbar-thumb:hover {
+  background-color: #333333;
+}
+
+/* ------------------ weather ------------------ */
+#weather-container{
+  width: 100%;
+  height: 78vh;
+  display: flex;
+  flex-direction: row;
+}
+
+#weather-container1{
+  background-color: #354F52;
+  flex: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#date-container{
+  font-size: 1.5rem;
+}
+
+#weather-container2{
+flex: 80%;
+}
+
+#current-weather-image{
+  position: relative;
+  width: 12vw;
+  height: 27vh;
+  left: 25%;
+  background-image: url('');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 3;
+}
+
+#weather-container2{
+  display: flex;
+  flex-direction: column;
+}
+
+.city-heading{
+  font-size: 110%;
+}
+
+.weather-container3{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.box-weather{
+  width: 30%;
+  background-color:#1f2f31;
+  border: 1px solid #000000;
+}
+
+.day-image{
+  height:50%;
+  background-image: url('');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* ------------------ recipes ------------------ */
+
+#recipes-container{
+  width: 100%;
+  min-height: 78vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-container{
+  width: 100%;
+  height: 20%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.item1{
+  flex: 50%;
+}
+
+.item1 img{
+  width: 60%;
+  height: 48%;
+}
+.item1 img:hover{
+  scale: 1.7;
+  transition-duration: 1000ms;
+}
+
+.item2{
+  /* padding-left: 5%; */
+  padding: 0% 5%;
+}
+
+.item3{
+  flex: 20%;
+  justify-self: center;
+}
+
+
+.hide{
+  display: none;
+}
+
+.recipe-steps{
+  width: 80vw;
+  height: 70vh;
+  overflow-y: scroll;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  background-color: rgba(53, 79, 82, 0.8);
+  color:#fafafa;
+}
+
+.recipe-steps::-webkit-scrollbar {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+
+.recipe-steps::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.recipe-steps::-webkit-scrollbar-thumb:hover {
+  background-color: #333333;
+}
+
+/*.btn-close{
+  position: absolute; 
+  top: 0%;
+  right: 0%;
+}*/
 
 /* ------------------ gallery.html ------------------ */
 
@@ -354,7 +482,7 @@ font-size: 120%;
   margin:0;
   position: relative;
   overflow: hidden;
-  height: 400px;
+  height: 60vh;
 }
   
 .swiper-slide figcaption{
@@ -393,22 +521,46 @@ figure img {
   background: #fff ;
 }
 
-@media screen and (max-width:768px){
-  #contenedor-padre{
-    display: block;
+/* ------------------ map.html ------------------ */
+
+#map{
+  width:75vw;
+  height:60vh;
+  margin:2% auto;
+  border: 1px solid black;
+}
+
+.asturias-center{
+  text-align: center;
+}
+
+.asturias-center button{
+  background-color: #354F52;
+  color: #fafafa;
+  border-radius: 25px;
+  width: 12%;
+  font-size: 16pt;
+  cursor: pointer;
+}
+.asturias-center button:hover{
+  background-color: #fafafa;
+  color: #354F52;
+  border-color: #354F52;
+}
+
+#btn-flag{
+  width: 20%;
+  height:10%;
+}
+
+
+
+@media screen and (max-width:480px){
+  #text-main-image h2{
+    display: none;
   }
-  #item1{
-    width: 100%;
-    height:300px;
+  #index-buttons{
+    display: none;
   }
-  #item3{
-    text-align: center;
-  }
-  #item4{
-    display: block;
-    text-align: center;
-  }
-  #item4 div{
-    margin-top: 25px;
-  }
+
 }
