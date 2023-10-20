@@ -81,6 +81,20 @@ button{
   font-family: 'Bebas Neue', sans-serif;
 }
 
+/* hide and show */
+
+.show {
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+.show-menu{
+  display: block;
+}
+
 /* ------------------ header ------------------ */
 
 #container-header{
@@ -103,7 +117,7 @@ nav{
 #logo{
     flex: 30%;
     height: 12vh;
-    background-image: url('../images/asturiaslogo.jpg');
+    background-image: url('../images/asturias_logo.jpg');
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -129,10 +143,17 @@ nav{
   color: #FFD700;
 }
 
+#btn-hamburguer{
+  color: #fafafa;
+  align-self: center;
+  margin-right: 5%;
+  display: none;
+}
+
 /* ------------------ footer ------------------ */
 footer{
   width:100%;
-  height:10vh;
+  /* height:10vh; */
   background-color: #354F52;
 }
 
@@ -173,7 +194,7 @@ flex-direction: row;*/
 
 #index-container-father{
     width: 100%;
-    height: 78vh;
+    /* height: 78vh; */
     background-image: url('../images/cudillero.jpg');
     background-size: cover;
     background-position: center;
@@ -182,12 +203,13 @@ flex-direction: row;*/
 
 #text-main-image{
     width: 60vw;
-    height: 30vh;
+    /* height: 30vh; */
     background-color: rgba(255, 255, 255, 0.6);
     /* opacity: 0.5; */
     position: absolute;
     bottom: 45%;
     left: 20vw;
+    padding: 2em 0px;
 }
 
 #index-buttons{
@@ -217,8 +239,8 @@ flex-direction: row;*/
   height: 25%;
   position: absolute;
   bottom: 10vh;
-  right: 0%;
-  background-image: url('../images/asturias-spain.png');
+  right: 5%;
+  background-image: url('../images/asturias_spain.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -387,62 +409,111 @@ flex: 80%;
   background-size: contain;
 }
 
+#cities-line{
+  height:2%;
+  width: 80%;
+  background-color: #354F52;
+  align-self: center;
+  margin-top: 2%;
+}
+
 /* ------------------ recipes ------------------ */
 
 #recipes-container{
   width: 100%;
-  min-height: 78vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .recipe-container{
   width: 100%;
-  height: 20%;
-  margin-top: 5%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 
+.down-arrow{
+  width: 15px;
+  height: 15px;
+  background-image: url('../images/down_arrow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+}
+.up-arrow{
+  width: 15px;
+  height: 15px;
+  background-image: url('../images/up_arrow.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  margin-left: 5px;
+}
+.recipe-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+.inline-display{
+  /* display: inline-block; */
+  margin-left: 5px;
+  justify-self: left;
+}
 .item1{
-  flex: 50%;
+  width: 30rem;
+  padding: 1% 10%;
 }
 
-.item1 img{
-  width: 60%;
-  height: 48%;
+#fabada-img{
+  width: 20vw;
+  height: 20vw;
+  background-image: url("../images/recipes/fabada.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.item1 img:hover{
-  scale: 1.7;
-  transition-duration: 1000ms;
+
+#hake-img{
+  width: 20vw;
+  height: 20vw;
+  background-image: url("../images/recipes/merluza_sidra.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#frixuelos-img{
+  width: 20vw;
+  height: 20vw;
+  background-image: url("../images/recipes/frixuelos.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .item2{
-  /* padding-left: 5%; */
   padding: 0% 5%;
 }
 
 .item3{
-  flex: 20%;
   justify-self: center;
-}
-
-
-.hide{
-  display: none;
 }
 
 .recipe-steps{
   width: 80vw;
-  height: 70vh;
+  height: 60vh;
   overflow-y: scroll;
   margin: 0 auto;
   border: 1px solid #000000;
   background-color: rgba(53, 79, 82, 0.8);
   color:#fafafa;
+  margin-top: 1%;
 }
 
 .recipe-steps::-webkit-scrollbar {
@@ -459,11 +530,9 @@ flex: 80%;
   background-color: #333333;
 }
 
-/*.btn-close{
-  position: absolute; 
-  top: 0%;
-  right: 0%;
-}*/
+#frixuelos{
+  margin-bottom: 1%;
+}
 
 /* ------------------ gallery.html ------------------ */
 
@@ -491,7 +560,7 @@ flex: 80%;
   color: white;
   position: absolute;
   bottom: 2px;
-  font-size: 17px;
+  font-size: 1.2em;
   justify-content: center;
   gap: .5rem;
   border-radius: .5rem;
@@ -518,7 +587,8 @@ figure img {
 }
 
 .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
-  background: #fff ;
+  background: #5ed0dd;
+  height: 8px;
 }
 
 /* ------------------ map.html ------------------ */
@@ -531,16 +601,19 @@ figure img {
 }
 
 .asturias-center{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .asturias-center button{
   background-color: #354F52;
   color: #fafafa;
   border-radius: 25px;
-  width: 12%;
+  width: 20%;
   font-size: 16pt;
   cursor: pointer;
+  margin-bottom: 1%;
 }
 .asturias-center button:hover{
   background-color: #fafafa;
@@ -548,19 +621,67 @@ figure img {
   border-color: #354F52;
 }
 
-#btn-flag{
-  width: 20%;
-  height:10%;
+#btn-flag-S{
+  width: 40px;
+  height:30px;
+  background-image: url('../images/spain_flag.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#btn-flag-A{
+  width: 40px;
+  height:30px;
+  background-image: url('../images/asturias_flag.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
+.btn-map div {
+  margin: 0 5px;
+}
+
+#go-asturias{
+  font-size: 100%;
+}
 
 @media screen and (max-width:480px){
+  /* #navigation{
+    display: none;
+  } */
+  #btn-hamburguer{
+    display: block;
+  }
   #text-main-image h2{
     display: none;
   }
   #index-buttons{
     display: none;
   }
+  #go-asturias{
+    font-size: 80%;
+  }
+
+  #day{
+    font-size: 75%;
+  }
+  #date{
+    font-size: 50%
+  }
 
 }
+
+@media screen and (min-width:480px){
+  /* #navigation{
+    flex-direction: row;
+  } */
+}
+

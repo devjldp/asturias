@@ -34,7 +34,7 @@ const getGeoLocation = async () => {
   return new Promise((resolve, reject) => {
       // Configuration options for location retrieval
       const options = {
-          enableHighAccuracy: true,  // Habilita la alta precisión
+          enableHighAccuracy: true,  
           timeout: 1000,  // Maximum time to obtain location (in milliseconds)
           maximumAge: 0,  // Maximum location cache age
       };
@@ -67,13 +67,11 @@ const getData = async (url) => {
 
 window.addEventListener('DOMContentLoaded', async () => {
   // const current = await getGeoLocation();
-  const restaurants = await getData('./assets/json/food.json');
+  const restaurants = await getData('assets/json/food.json');
   const beaches = await getData('./assets/json/beachs.json');
   const museums = await getData('./assets/json/museums.json');
 
   const position = await getGeoLocation();
-  // console.log(prueba)
-  // console.log(typeof restaurants)
   // Create a Leaflet map centered on the user's position
   let map = L.map('map').setView([position[0],position[1]],18);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {

